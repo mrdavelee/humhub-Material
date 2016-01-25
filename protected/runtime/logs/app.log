@@ -1,0 +1,1026 @@
+2016-01-25 19:09:11 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', '', '', NULL)
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(402): yii\db\Command->queryInternal('fetchAll', 7)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/mysql/Schema.php(308): yii\db\Command->queryColumn()
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php(228): yii\db\mysql\Schema->findTableNames('')
+#9 /Applications/MAMP/htdocs/humhub/protected/humhub/components/console/Application.php(64): yii\db\Schema->getTableNames()
+#10 /Applications/MAMP/htdocs/humhub/protected/humhub/components/console/Application.php(35): humhub\components\console\Application->isDatabaseInstalled()
+#11 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Object.php(107): humhub\components\console\Application->init()
+#12 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#13 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/console/Application.php(85): yii\base\Application->__construct(Array)
+#14 /Applications/MAMP/htdocs/humhub/protected/yii(28): yii\console\Application->__construct(Array)
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(402): yii\db\Command->queryInternal('fetchAll', 7)
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/mysql/Schema.php(308): yii\db\Command->queryColumn()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php(228): yii\db\mysql\Schema->findTableNames('')
+#7 /Applications/MAMP/htdocs/humhub/protected/humhub/components/console/Application.php(64): yii\db\Schema->getTableNames()
+#8 /Applications/MAMP/htdocs/humhub/protected/humhub/components/console/Application.php(35): humhub\components\console\Application->isDatabaseInstalled()
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Object.php(107): humhub\components\console\Application->init()
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#11 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/console/Application.php(85): yii\base\Application->__construct(Array)
+#12 /Applications/MAMP/htdocs/humhub/protected/yii(28): yii\console\Application->__construct(Array)
+#13 {main}
+Additional Information:
+
+2016-01-25 19:09:11 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/rz/shzsvwdn5wb1dtt_kz8j5j3w0000gp/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.185jJ1F3l3/Render'
+    'TERM_PROGRAM_VERSION' => '361'
+    'TERM_SESSION_ID' => '02C7C332-CBD1-478F-9DAA-C2EB95A4A2AC'
+    'USER' => 'Mac'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.eVOC75uCBf/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F6:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/Mac'
+    'LANG' => 'en_GB.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Mac'
+    'LOGNAME' => 'Mac'
+    '_' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'PHP_SELF' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'SCRIPT_NAME' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'PATH_TRANSLATED' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453748951.9338
+    'REQUEST_TIME' => 1453748951
+    'argv' => [
+        0 => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    ]
+    'argc' => 1
+]
+2016-01-25 19:09:11 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\log\DbTarget: Exception (Database Exception) 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No such file or directory' 
+
+in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php:534
+
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php(477): yii\db\Connection->getSlavePdo()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(732): yii\db\Schema->quoteValue('yii\\db\\Exceptio...')
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(172): yii\db\Connection->quoteValue('yii\\db\\Exceptio...')
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(767): yii\db\Command->getRawSql()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/log/DbTarget.php(83): yii\db\Command->execute()
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/log/Target.php(111): yii\log\DbTarget->export()
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\log\Target->collect(Array, true)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#11 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#12 {main}
+2016-01-25 19:09:11 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/rz/shzsvwdn5wb1dtt_kz8j5j3w0000gp/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.185jJ1F3l3/Render'
+    'TERM_PROGRAM_VERSION' => '361'
+    'TERM_SESSION_ID' => '02C7C332-CBD1-478F-9DAA-C2EB95A4A2AC'
+    'USER' => 'Mac'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.eVOC75uCBf/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F6:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/Mac'
+    'LANG' => 'en_GB.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Mac'
+    'LOGNAME' => 'Mac'
+    '_' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'PHP_SELF' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'SCRIPT_NAME' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'PATH_TRANSLATED' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453748951.9338
+    'REQUEST_TIME' => 1453748951
+    'argv' => [
+        0 => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    ]
+    'argc' => 1
+]
+2016-01-25 19:09:26 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', '', '', NULL)
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(402): yii\db\Command->queryInternal('fetchAll', 7)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/mysql/Schema.php(308): yii\db\Command->queryColumn()
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php(228): yii\db\mysql\Schema->findTableNames('')
+#9 /Applications/MAMP/htdocs/humhub/protected/humhub/components/console/Application.php(64): yii\db\Schema->getTableNames()
+#10 /Applications/MAMP/htdocs/humhub/protected/humhub/components/console/Application.php(35): humhub\components\console\Application->isDatabaseInstalled()
+#11 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Object.php(107): humhub\components\console\Application->init()
+#12 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#13 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/console/Application.php(85): yii\base\Application->__construct(Array)
+#14 /Applications/MAMP/htdocs/humhub/protected/yii(28): yii\console\Application->__construct(Array)
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(402): yii\db\Command->queryInternal('fetchAll', 7)
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/mysql/Schema.php(308): yii\db\Command->queryColumn()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php(228): yii\db\mysql\Schema->findTableNames('')
+#7 /Applications/MAMP/htdocs/humhub/protected/humhub/components/console/Application.php(64): yii\db\Schema->getTableNames()
+#8 /Applications/MAMP/htdocs/humhub/protected/humhub/components/console/Application.php(35): humhub\components\console\Application->isDatabaseInstalled()
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Object.php(107): humhub\components\console\Application->init()
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#11 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/console/Application.php(85): yii\base\Application->__construct(Array)
+#12 /Applications/MAMP/htdocs/humhub/protected/yii(28): yii\console\Application->__construct(Array)
+#13 {main}
+Additional Information:
+
+2016-01-25 19:09:26 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/rz/shzsvwdn5wb1dtt_kz8j5j3w0000gp/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.185jJ1F3l3/Render'
+    'TERM_PROGRAM_VERSION' => '361'
+    'TERM_SESSION_ID' => 'A2CE6769-44A4-474C-83B4-93B9F5B0FF04'
+    'USER' => 'Mac'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.eVOC75uCBf/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F6:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/Mac'
+    'LANG' => 'en_GB.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Mac'
+    'LOGNAME' => 'Mac'
+    '_' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'PHP_SELF' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'SCRIPT_NAME' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'PATH_TRANSLATED' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453748966.5869
+    'REQUEST_TIME' => 1453748966
+    'argv' => [
+        0 => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    ]
+    'argc' => 1
+]
+2016-01-25 19:09:26 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\log\DbTarget: Exception (Database Exception) 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No such file or directory' 
+
+in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php:534
+
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php(477): yii\db\Connection->getSlavePdo()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(732): yii\db\Schema->quoteValue('yii\\db\\Exceptio...')
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(172): yii\db\Connection->quoteValue('yii\\db\\Exceptio...')
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(767): yii\db\Command->getRawSql()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/log/DbTarget.php(83): yii\db\Command->execute()
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/log/Target.php(111): yii\log\DbTarget->export()
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\log\Target->collect(Array, true)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#11 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#12 {main}
+2016-01-25 19:09:26 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/rz/shzsvwdn5wb1dtt_kz8j5j3w0000gp/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.185jJ1F3l3/Render'
+    'TERM_PROGRAM_VERSION' => '361'
+    'TERM_SESSION_ID' => 'A2CE6769-44A4-474C-83B4-93B9F5B0FF04'
+    'USER' => 'Mac'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.eVOC75uCBf/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F6:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/Mac'
+    'LANG' => 'en_GB.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Mac'
+    'LOGNAME' => 'Mac'
+    '_' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'PHP_SELF' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'SCRIPT_NAME' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'PATH_TRANSLATED' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453748966.5869
+    'REQUEST_TIME' => 1453748966
+    'argv' => [
+        0 => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    ]
+    'argc' => 1
+]
+2016-01-25 19:39:04 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'social_dbuser', 'Platinumsun1', NULL)
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(402): yii\db\Command->queryInternal('fetchAll', 7)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/mysql/Schema.php(308): yii\db\Command->queryColumn()
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php(228): yii\db\mysql\Schema->findTableNames('')
+#9 /Applications/MAMP/htdocs/humhub/protected/humhub/components/console/Application.php(64): yii\db\Schema->getTableNames()
+#10 /Applications/MAMP/htdocs/humhub/protected/humhub/components/ModuleManager.php(68): humhub\components\console\Application->isDatabaseInstalled()
+#11 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Object.php(107): humhub\components\ModuleManager->init()
+#12 [internal function]: yii\base\Object->__construct(Array)
+#13 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#14 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(151): yii\di\Container->build('\\humhub\\compone...', Array, Array)
+#15 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('\\humhub\\compone...', Array, Array)
+#16 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#17 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/ServiceLocator.php(71): yii\di\ServiceLocator->get('moduleManager')
+#18 /Applications/MAMP/htdocs/humhub/protected/humhub/components/bootstrap/ModuleAutoLoader.php(52): yii\di\ServiceLocator->__get('moduleManager')
+#19 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(315): humhub\components\bootstrap\ModuleAutoLoader->bootstrap(Object(humhub\components\console\Application))
+#20 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(267): yii\base\Application->bootstrap()
+#21 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/console/Application.php(120): yii\base\Application->init()
+#22 /Applications/MAMP/htdocs/humhub/protected/humhub/components/console/Application.php(32): yii\console\Application->init()
+#23 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Object.php(107): humhub\components\console\Application->init()
+#24 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#25 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/console/Application.php(85): yii\base\Application->__construct(Array)
+#26 /Applications/MAMP/htdocs/humhub/protected/yii(28): yii\console\Application->__construct(Array)
+#27 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(402): yii\db\Command->queryInternal('fetchAll', 7)
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/mysql/Schema.php(308): yii\db\Command->queryColumn()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php(228): yii\db\mysql\Schema->findTableNames('')
+#7 /Applications/MAMP/htdocs/humhub/protected/humhub/components/console/Application.php(64): yii\db\Schema->getTableNames()
+#8 /Applications/MAMP/htdocs/humhub/protected/humhub/components/ModuleManager.php(68): humhub\components\console\Application->isDatabaseInstalled()
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Object.php(107): humhub\components\ModuleManager->init()
+#10 [internal function]: yii\base\Object->__construct(Array)
+#11 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#12 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(151): yii\di\Container->build('\\humhub\\compone...', Array, Array)
+#13 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('\\humhub\\compone...', Array, Array)
+#14 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#15 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/ServiceLocator.php(71): yii\di\ServiceLocator->get('moduleManager')
+#16 /Applications/MAMP/htdocs/humhub/protected/humhub/components/bootstrap/ModuleAutoLoader.php(52): yii\di\ServiceLocator->__get('moduleManager')
+#17 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(315): humhub\components\bootstrap\ModuleAutoLoader->bootstrap(Object(humhub\components\console\Application))
+#18 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(267): yii\base\Application->bootstrap()
+#19 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/console/Application.php(120): yii\base\Application->init()
+#20 /Applications/MAMP/htdocs/humhub/protected/humhub/components/console/Application.php(32): yii\console\Application->init()
+#21 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Object.php(107): humhub\components\console\Application->init()
+#22 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#23 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/console/Application.php(85): yii\base\Application->__construct(Array)
+#24 /Applications/MAMP/htdocs/humhub/protected/yii(28): yii\console\Application->__construct(Array)
+#25 {main}
+Additional Information:
+
+2016-01-25 19:39:04 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/rz/shzsvwdn5wb1dtt_kz8j5j3w0000gp/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.185jJ1F3l3/Render'
+    'TERM_PROGRAM_VERSION' => '361'
+    'TERM_SESSION_ID' => '6E109A67-9651-465C-8EB0-C281213B3FFA'
+    'USER' => 'Mac'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.eVOC75uCBf/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F6:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/Mac'
+    'LANG' => 'en_GB.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Mac'
+    'LOGNAME' => 'Mac'
+    '_' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'PHP_SELF' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'SCRIPT_NAME' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'PATH_TRANSLATED' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453750744.9604
+    'REQUEST_TIME' => 1453750744
+    'argv' => [
+        0 => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    ]
+    'argc' => 1
+]
+2016-01-25 19:39:04 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\log\DbTarget: Exception (Database Exception) 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No such file or directory' 
+
+in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php:534
+
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php(477): yii\db\Connection->getSlavePdo()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Connection.php(732): yii\db\Schema->quoteValue('yii\\db\\Exceptio...')
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(172): yii\db\Connection->quoteValue('yii\\db\\Exceptio...')
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(767): yii\db\Command->getRawSql()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/log/DbTarget.php(83): yii\db\Command->execute()
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/log/Target.php(111): yii\log\DbTarget->export()
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\log\Target->collect(Array, true)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#11 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#12 {main}
+2016-01-25 19:39:04 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/rz/shzsvwdn5wb1dtt_kz8j5j3w0000gp/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.185jJ1F3l3/Render'
+    'TERM_PROGRAM_VERSION' => '361'
+    'TERM_SESSION_ID' => '6E109A67-9651-465C-8EB0-C281213B3FFA'
+    'USER' => 'Mac'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.eVOC75uCBf/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F6:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/Mac'
+    'LANG' => 'en_GB.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Mac'
+    'LOGNAME' => 'Mac'
+    '_' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'PHP_SELF' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'SCRIPT_NAME' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'PATH_TRANSLATED' => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1453750744.9604
+    'REQUEST_TIME' => 1453750744
+    'argv' => [
+        0 => '/Applications/MAMP/htdocs/humhub/protected/yii'
+    ]
+    'argc' => 1
+]
+2016-01-25 22:42:31 [::1][1][68f029dcb25a4b9e1275bcab3b5981ed][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content.sticked' in 'order clause'' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php:837
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(837): PDOStatement->execute()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#4 /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/actions/Stream.php(239): yii\db\ActiveQuery->all()
+#5 [internal function]: humhub\modules\content\components\actions\Stream->run()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('stream', Array)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space/str...', Array)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content.sticked' in 'order clause'
+The SQL being executed was: SELECT `wall_entry`.* FROM `wall_entry` LEFT JOIN `content` ON `wall_entry`.`content_id` = `content`.`id` LEFT JOIN `user` ON `content`.`user_id` = `user`.`id` LEFT JOIN `space` ON `content`.`space_id` = `space`.`id` LEFT JOIN `activity` ON content.object_id=activity.id AND content.object_model='humhub\\modules\\activity\\models\\Activity' WHERE ((((`user`.`status`=1) AND (`content`.`object_model`='humhub\\modules\\activity\\models\\Activity')) AND (content.user_id != 1)) AND ((content.archived != 1 OR content.archived IS NULL))) AND (wall_entry.wall_id = 2) ORDER BY `content`.`sticked` DESC, `wall_entry`.`id` DESC LIMIT 10' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `wall_en...')
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#4 /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/actions/Stream.php(239): yii\db\ActiveQuery->all()
+#5 [internal function]: humhub\modules\content\components\actions\Stream->run()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('stream', Array)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space/str...', Array)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'content.sticked' in 'order clause'
+)
+
+2016-01-25 22:42:31 [::1][1][68f029dcb25a4b9e1275bcab3b5981ed][info][application] $_GET = [
+    'r' => 'space/space/stream'
+    'limit' => '10'
+    'from' => ''
+    'mode' => 'activity'
+    'sguid' => '71f97718-d0b9-45bd-883c-116372d9794e'
+]
+
+$_COOKIE = [
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    'pm_getting-started-panel' => 'expanded'
+    'pm_space-members-panel' => 'expanded'
+    'pm_user-statistics-panel' => 'expanded'
+    'pm_user-tags-panel' => 'expanded'
+    'pm_user-spaces-panel' => 'expanded'
+    'G_ENABLED_IDPS' => 'google'
+    'PHPSESSID' => '68f029dcb25a4b9e1275bcab3b5981ed'
+    '_csrf' => 'c18c4a66243a9e6854b4b5faf16136c19c3bf96058b9de67695ad88ccd806507a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0Roq9PAgl5m7Rx60eBeSq24FZBRfOilg\";}'
+    'language' => '4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a:2:{i:0;s:8:\"language\";i:1;s:5:\"en_gb\";}'
+    '_identity' => '312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"f9c065e3-6caf-4333-b191-fccc177a1401\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'aW9LN2wueldZPSRGVX47MAVaJgA.VkxnDC0uZB0cThEzLRlRI0cWMA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://localhost:8888/humhub/index.php?r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'HTTP_COOKIE' => 'pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; pm_getting-started-panel=expanded; pm_space-members-panel=expanded; pm_user-statistics-panel=expanded; pm_user-tags-panel=expanded; pm_user-spaces-panel=expanded; G_ENABLED_IDPS=google; PHPSESSID=68f029dcb25a4b9e1275bcab3b5981ed; _csrf=c18c4a66243a9e6854b4b5faf16136c19c3bf96058b9de67695ad88ccd806507a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220Roq9PAgl5m7Rx60eBeSq24FZBRfOilg%22%3B%7D; language=4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22en_gb%22%3B%7D; _identity=312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22f9c065e3-6caf-4333-b191-fccc177a1401%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '64830'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=space%2Fspace%2Fstream&limit=10&from=&mode=activity&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'REQUEST_URI' => '/humhub/index.php?r=space%2Fspace%2Fstream&limit=10&from=&mode=activity&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1453758151.07
+    'REQUEST_TIME' => 1453758151
+    'argv' => [
+        0 => 'r=space%2Fspace%2Fstream&limit=10&from=&mode=activity&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    ]
+    'argc' => 1
+]
+2016-01-25 22:42:31 [::1][1][68f029dcb25a4b9e1275bcab3b5981ed][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content.sticked' in 'order clause'' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php:837
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(837): PDOStatement->execute()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#4 /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/actions/Stream.php(239): yii\db\ActiveQuery->all()
+#5 [internal function]: humhub\modules\content\components\actions\Stream->run()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('stream', Array)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space/str...', Array)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content.sticked' in 'order clause'
+The SQL being executed was: SELECT `wall_entry`.* FROM `wall_entry` LEFT JOIN `content` ON `wall_entry`.`content_id` = `content`.`id` LEFT JOIN `user` ON `content`.`user_id` = `user`.`id` LEFT JOIN `space` ON `content`.`space_id` = `space`.`id` WHERE (((`user`.`status`=1) AND (`content`.`object_model` != 'humhub\\modules\\activity\\models\\Activity')) AND ((content.archived != 1 OR content.archived IS NULL))) AND (wall_entry.wall_id = 2) ORDER BY `content`.`sticked` DESC, `wall_entry`.`id` DESC LIMIT 4' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `wall_en...')
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#4 /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/actions/Stream.php(239): yii\db\ActiveQuery->all()
+#5 [internal function]: humhub\modules\content\components\actions\Stream->run()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('stream', Array)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space/str...', Array)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'content.sticked' in 'order clause'
+)
+
+2016-01-25 22:42:31 [::1][1][68f029dcb25a4b9e1275bcab3b5981ed][info][application] $_GET = [
+    'r' => 'space/space/stream'
+    1 => '/space/space/stream'
+    'limit' => '4'
+    'filters' => ''
+    'sort' => 'c'
+    'from' => ''
+    'mode' => 'normal'
+    'sguid' => '71f97718-d0b9-45bd-883c-116372d9794e'
+]
+
+$_COOKIE = [
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    'pm_getting-started-panel' => 'expanded'
+    'pm_space-members-panel' => 'expanded'
+    'pm_user-statistics-panel' => 'expanded'
+    'pm_user-tags-panel' => 'expanded'
+    'pm_user-spaces-panel' => 'expanded'
+    'G_ENABLED_IDPS' => 'google'
+    'PHPSESSID' => '68f029dcb25a4b9e1275bcab3b5981ed'
+    '_csrf' => 'c18c4a66243a9e6854b4b5faf16136c19c3bf96058b9de67695ad88ccd806507a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0Roq9PAgl5m7Rx60eBeSq24FZBRfOilg\";}'
+    'language' => '4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a:2:{i:0;s:8:\"language\";i:1;s:5:\"en_gb\";}'
+    '_identity' => '312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"f9c065e3-6caf-4333-b191-fccc177a1401\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'aW9LN2wueldZPSRGVX47MAVaJgA.VkxnDC0uZB0cThEzLRlRI0cWMA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://localhost:8888/humhub/index.php?r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'HTTP_COOKIE' => 'pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; pm_getting-started-panel=expanded; pm_space-members-panel=expanded; pm_user-statistics-panel=expanded; pm_user-tags-panel=expanded; pm_user-spaces-panel=expanded; G_ENABLED_IDPS=google; PHPSESSID=68f029dcb25a4b9e1275bcab3b5981ed; _csrf=c18c4a66243a9e6854b4b5faf16136c19c3bf96058b9de67695ad88ccd806507a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220Roq9PAgl5m7Rx60eBeSq24FZBRfOilg%22%3B%7D; language=4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22en_gb%22%3B%7D; _identity=312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22f9c065e3-6caf-4333-b191-fccc177a1401%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '64833'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=space%2Fspace%2Fstream&1=%2Fspace%2Fspace%2Fstream&limit=4&filters=&sort=c&from=&mode=normal&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'REQUEST_URI' => '/humhub/index.php?r=space%2Fspace%2Fstream&1=%2Fspace%2Fspace%2Fstream&limit=4&filters=&sort=c&from=&mode=normal&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1453758151.08
+    'REQUEST_TIME' => 1453758151
+    'argv' => [
+        0 => 'r=space%2Fspace%2Fstream&1=%2Fspace%2Fspace%2Fstream&limit=4&filters=&sort=c&from=&mode=normal&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    ]
+    'argc' => 1
+]
+2016-01-25 22:43:07 [::1][1][68f029dcb25a4b9e1275bcab3b5981ed][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content.sticked' in 'order clause'' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php:837
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(837): PDOStatement->execute()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#4 /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/actions/Stream.php(239): yii\db\ActiveQuery->all()
+#5 [internal function]: humhub\modules\content\components\actions\Stream->run()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('stream', Array)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space/str...', Array)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content.sticked' in 'order clause'
+The SQL being executed was: SELECT `wall_entry`.* FROM `wall_entry` LEFT JOIN `content` ON `wall_entry`.`content_id` = `content`.`id` LEFT JOIN `user` ON `content`.`user_id` = `user`.`id` LEFT JOIN `space` ON `content`.`space_id` = `space`.`id` LEFT JOIN `activity` ON content.object_id=activity.id AND content.object_model='humhub\\modules\\activity\\models\\Activity' WHERE ((((`user`.`status`=1) AND (`content`.`object_model`='humhub\\modules\\activity\\models\\Activity')) AND (content.user_id != 1)) AND ((content.archived != 1 OR content.archived IS NULL))) AND (wall_entry.wall_id = 2) ORDER BY `content`.`sticked` DESC, `wall_entry`.`id` DESC LIMIT 10' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `wall_en...')
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#4 /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/actions/Stream.php(239): yii\db\ActiveQuery->all()
+#5 [internal function]: humhub\modules\content\components\actions\Stream->run()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('stream', Array)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space/str...', Array)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'content.sticked' in 'order clause'
+)
+
+2016-01-25 22:43:07 [::1][1][68f029dcb25a4b9e1275bcab3b5981ed][info][application] $_GET = [
+    'r' => 'space/space/stream'
+    'limit' => '10'
+    'from' => ''
+    'mode' => 'activity'
+    'sguid' => '71f97718-d0b9-45bd-883c-116372d9794e'
+]
+
+$_COOKIE = [
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    'pm_getting-started-panel' => 'expanded'
+    'pm_space-members-panel' => 'expanded'
+    'pm_user-statistics-panel' => 'expanded'
+    'pm_user-tags-panel' => 'expanded'
+    'pm_user-spaces-panel' => 'expanded'
+    'G_ENABLED_IDPS' => 'google'
+    'PHPSESSID' => '68f029dcb25a4b9e1275bcab3b5981ed'
+    '_csrf' => 'c18c4a66243a9e6854b4b5faf16136c19c3bf96058b9de67695ad88ccd806507a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0Roq9PAgl5m7Rx60eBeSq24FZBRfOilg\";}'
+    'language' => '4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a:2:{i:0;s:8:\"language\";i:1;s:5:\"en_gb\";}'
+    '_identity' => '312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"f9c065e3-6caf-4333-b191-fccc177a1401\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'VE56NEM1eFBkHBVFemU5Nzh7FwMRTU5gMQwfZzIHTBYODChSDFwUNw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://localhost:8888/humhub/index.php?r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'HTTP_COOKIE' => 'pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; pm_getting-started-panel=expanded; pm_space-members-panel=expanded; pm_user-statistics-panel=expanded; pm_user-tags-panel=expanded; pm_user-spaces-panel=expanded; G_ENABLED_IDPS=google; PHPSESSID=68f029dcb25a4b9e1275bcab3b5981ed; _csrf=c18c4a66243a9e6854b4b5faf16136c19c3bf96058b9de67695ad88ccd806507a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220Roq9PAgl5m7Rx60eBeSq24FZBRfOilg%22%3B%7D; language=4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22en_gb%22%3B%7D; _identity=312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22f9c065e3-6caf-4333-b191-fccc177a1401%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '49158'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=space%2Fspace%2Fstream&limit=10&from=&mode=activity&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'REQUEST_URI' => '/humhub/index.php?r=space%2Fspace%2Fstream&limit=10&from=&mode=activity&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1453758187.49
+    'REQUEST_TIME' => 1453758187
+    'argv' => [
+        0 => 'r=space%2Fspace%2Fstream&limit=10&from=&mode=activity&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    ]
+    'argc' => 1
+]
+2016-01-25 22:43:07 [::1][1][68f029dcb25a4b9e1275bcab3b5981ed][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content.sticked' in 'order clause'' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php:837
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(837): PDOStatement->execute()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#4 /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/actions/Stream.php(239): yii\db\ActiveQuery->all()
+#5 [internal function]: humhub\modules\content\components\actions\Stream->run()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('stream', Array)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space/str...', Array)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content.sticked' in 'order clause'
+The SQL being executed was: SELECT `wall_entry`.* FROM `wall_entry` LEFT JOIN `content` ON `wall_entry`.`content_id` = `content`.`id` LEFT JOIN `user` ON `content`.`user_id` = `user`.`id` LEFT JOIN `space` ON `content`.`space_id` = `space`.`id` WHERE (((`user`.`status`=1) AND (`content`.`object_model` != 'humhub\\modules\\activity\\models\\Activity')) AND ((content.archived != 1 OR content.archived IS NULL))) AND (wall_entry.wall_id = 2) ORDER BY `content`.`sticked` DESC, `wall_entry`.`id` DESC LIMIT 4' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `wall_en...')
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#4 /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/actions/Stream.php(239): yii\db\ActiveQuery->all()
+#5 [internal function]: humhub\modules\content\components\actions\Stream->run()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('stream', Array)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space/str...', Array)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'content.sticked' in 'order clause'
+)
+
+2016-01-25 22:43:07 [::1][1][68f029dcb25a4b9e1275bcab3b5981ed][info][application] $_GET = [
+    'r' => 'space/space/stream'
+    1 => '/space/space/stream'
+    'limit' => '4'
+    'filters' => ''
+    'sort' => 'c'
+    'from' => ''
+    'mode' => 'normal'
+    'sguid' => '71f97718-d0b9-45bd-883c-116372d9794e'
+]
+
+$_COOKIE = [
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    'pm_getting-started-panel' => 'expanded'
+    'pm_space-members-panel' => 'expanded'
+    'pm_user-statistics-panel' => 'expanded'
+    'pm_user-tags-panel' => 'expanded'
+    'pm_user-spaces-panel' => 'expanded'
+    'G_ENABLED_IDPS' => 'google'
+    'PHPSESSID' => '68f029dcb25a4b9e1275bcab3b5981ed'
+    '_csrf' => 'c18c4a66243a9e6854b4b5faf16136c19c3bf96058b9de67695ad88ccd806507a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0Roq9PAgl5m7Rx60eBeSq24FZBRfOilg\";}'
+    'language' => '4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a:2:{i:0;s:8:\"language\";i:1;s:5:\"en_gb\";}'
+    '_identity' => '312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"f9c065e3-6caf-4333-b191-fccc177a1401\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'VE56NEM1eFBkHBVFemU5Nzh7FwMRTU5gMQwfZzIHTBYODChSDFwUNw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://localhost:8888/humhub/index.php?r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'HTTP_COOKIE' => 'pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; pm_getting-started-panel=expanded; pm_space-members-panel=expanded; pm_user-statistics-panel=expanded; pm_user-tags-panel=expanded; pm_user-spaces-panel=expanded; G_ENABLED_IDPS=google; PHPSESSID=68f029dcb25a4b9e1275bcab3b5981ed; _csrf=c18c4a66243a9e6854b4b5faf16136c19c3bf96058b9de67695ad88ccd806507a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220Roq9PAgl5m7Rx60eBeSq24FZBRfOilg%22%3B%7D; language=4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22en_gb%22%3B%7D; _identity=312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22f9c065e3-6caf-4333-b191-fccc177a1401%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '49287'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=space%2Fspace%2Fstream&1=%2Fspace%2Fspace%2Fstream&limit=4&filters=&sort=c&from=&mode=normal&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'REQUEST_URI' => '/humhub/index.php?r=space%2Fspace%2Fstream&1=%2Fspace%2Fspace%2Fstream&limit=4&filters=&sort=c&from=&mode=normal&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1453758187.49
+    'REQUEST_TIME' => 1453758187
+    'argv' => [
+        0 => 'r=space%2Fspace%2Fstream&1=%2Fspace%2Fspace%2Fstream&limit=4&filters=&sort=c&from=&mode=normal&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    ]
+    'argc' => 1
+]
+2016-01-25 22:43:48 [::1][1][68f029dcb25a4b9e1275bcab3b5981ed][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content.sticked' in 'order clause'' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php:837
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(837): PDOStatement->execute()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#4 /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/actions/Stream.php(239): yii\db\ActiveQuery->all()
+#5 [internal function]: humhub\modules\content\components\actions\Stream->run()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('stream', Array)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space/str...', Array)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content.sticked' in 'order clause'
+The SQL being executed was: SELECT `wall_entry`.* FROM `wall_entry` LEFT JOIN `content` ON `wall_entry`.`content_id` = `content`.`id` LEFT JOIN `user` ON `content`.`user_id` = `user`.`id` LEFT JOIN `space` ON `content`.`space_id` = `space`.`id` LEFT JOIN `activity` ON content.object_id=activity.id AND content.object_model='humhub\\modules\\activity\\models\\Activity' WHERE ((((`user`.`status`=1) AND (`content`.`object_model`='humhub\\modules\\activity\\models\\Activity')) AND (content.user_id != 1)) AND ((content.archived != 1 OR content.archived IS NULL))) AND (wall_entry.wall_id = 2) ORDER BY `content`.`sticked` DESC, `wall_entry`.`id` DESC LIMIT 10' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `wall_en...')
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#4 /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/actions/Stream.php(239): yii\db\ActiveQuery->all()
+#5 [internal function]: humhub\modules\content\components\actions\Stream->run()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('stream', Array)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space/str...', Array)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'content.sticked' in 'order clause'
+)
+
+2016-01-25 22:43:47 [::1][1][68f029dcb25a4b9e1275bcab3b5981ed][info][application] $_GET = [
+    'r' => 'space/space/stream'
+    'limit' => '10'
+    'from' => ''
+    'mode' => 'activity'
+    'sguid' => '71f97718-d0b9-45bd-883c-116372d9794e'
+]
+
+$_COOKIE = [
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    'pm_getting-started-panel' => 'expanded'
+    'pm_space-members-panel' => 'expanded'
+    'pm_user-statistics-panel' => 'expanded'
+    'pm_user-tags-panel' => 'expanded'
+    'pm_user-spaces-panel' => 'expanded'
+    'G_ENABLED_IDPS' => 'google'
+    'PHPSESSID' => '68f029dcb25a4b9e1275bcab3b5981ed'
+    '_csrf' => 'c18c4a66243a9e6854b4b5faf16136c19c3bf96058b9de67695ad88ccd806507a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0Roq9PAgl5m7Rx60eBeSq24FZBRfOilg\";}'
+    'language' => '4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a:2:{i:0;s:8:\"language\";i:1;s:5:\"en_gb\";}'
+    '_identity' => '312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"f9c065e3-6caf-4333-b191-fccc177a1401\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'TmphZi5CWnR.OA4XFxIbEyJfDFF8OmxEKygENV9wbjIUKDMAYSs2Ew=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://localhost:8888/humhub/index.php?r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'HTTP_COOKIE' => 'pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; pm_getting-started-panel=expanded; pm_space-members-panel=expanded; pm_user-statistics-panel=expanded; pm_user-tags-panel=expanded; pm_user-spaces-panel=expanded; G_ENABLED_IDPS=google; PHPSESSID=68f029dcb25a4b9e1275bcab3b5981ed; _csrf=c18c4a66243a9e6854b4b5faf16136c19c3bf96058b9de67695ad88ccd806507a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220Roq9PAgl5m7Rx60eBeSq24FZBRfOilg%22%3B%7D; language=4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22en_gb%22%3B%7D; _identity=312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22f9c065e3-6caf-4333-b191-fccc177a1401%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '50203'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=space%2Fspace%2Fstream&limit=10&from=&mode=activity&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'REQUEST_URI' => '/humhub/index.php?r=space%2Fspace%2Fstream&limit=10&from=&mode=activity&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1453758227.89
+    'REQUEST_TIME' => 1453758227
+    'argv' => [
+        0 => 'r=space%2Fspace%2Fstream&limit=10&from=&mode=activity&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    ]
+    'argc' => 1
+]
+2016-01-25 22:43:48 [::1][1][68f029dcb25a4b9e1275bcab3b5981ed][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content.sticked' in 'order clause'' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php:837
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(837): PDOStatement->execute()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#4 /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/actions/Stream.php(239): yii\db\ActiveQuery->all()
+#5 [internal function]: humhub\modules\content\components\actions\Stream->run()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('stream', Array)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space/str...', Array)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content.sticked' in 'order clause'
+The SQL being executed was: SELECT `wall_entry`.* FROM `wall_entry` LEFT JOIN `content` ON `wall_entry`.`content_id` = `content`.`id` LEFT JOIN `user` ON `content`.`user_id` = `user`.`id` LEFT JOIN `space` ON `content`.`space_id` = `space`.`id` WHERE (((`user`.`status`=1) AND (`content`.`object_model` != 'humhub\\modules\\activity\\models\\Activity')) AND ((content.archived != 1 OR content.archived IS NULL))) AND (wall_entry.wall_id = 2) ORDER BY `content`.`sticked` DESC, `wall_entry`.`id` DESC LIMIT 4' in /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `wall_en...')
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#4 /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/actions/Stream.php(239): yii\db\ActiveQuery->all()
+#5 [internal function]: humhub\modules\content\components\actions\Stream->run()
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('stream', Array)
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space/str...', Array)
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'content.sticked' in 'order clause'
+)
+
+2016-01-25 22:43:47 [::1][1][68f029dcb25a4b9e1275bcab3b5981ed][info][application] $_GET = [
+    'r' => 'space/space/stream'
+    1 => '/space/space/stream'
+    'limit' => '4'
+    'filters' => ''
+    'sort' => 'c'
+    'from' => ''
+    'mode' => 'normal'
+    'sguid' => '71f97718-d0b9-45bd-883c-116372d9794e'
+]
+
+$_COOKIE = [
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    'pm_getting-started-panel' => 'expanded'
+    'pm_space-members-panel' => 'expanded'
+    'pm_user-statistics-panel' => 'expanded'
+    'pm_user-tags-panel' => 'expanded'
+    'pm_user-spaces-panel' => 'expanded'
+    'G_ENABLED_IDPS' => 'google'
+    'PHPSESSID' => '68f029dcb25a4b9e1275bcab3b5981ed'
+    '_csrf' => 'c18c4a66243a9e6854b4b5faf16136c19c3bf96058b9de67695ad88ccd806507a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0Roq9PAgl5m7Rx60eBeSq24FZBRfOilg\";}'
+    'language' => '4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a:2:{i:0;s:8:\"language\";i:1;s:5:\"en_gb\";}'
+    '_identity' => '312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"f9c065e3-6caf-4333-b191-fccc177a1401\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'TmphZi5CWnR.OA4XFxIbEyJfDFF8OmxEKygENV9wbjIUKDMAYSs2Ew=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://localhost:8888/humhub/index.php?r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'HTTP_COOKIE' => 'pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; pm_getting-started-panel=expanded; pm_space-members-panel=expanded; pm_user-statistics-panel=expanded; pm_user-tags-panel=expanded; pm_user-spaces-panel=expanded; G_ENABLED_IDPS=google; PHPSESSID=68f029dcb25a4b9e1275bcab3b5981ed; _csrf=c18c4a66243a9e6854b4b5faf16136c19c3bf96058b9de67695ad88ccd806507a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220Roq9PAgl5m7Rx60eBeSq24FZBRfOilg%22%3B%7D; language=4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22en_gb%22%3B%7D; _identity=312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22f9c065e3-6caf-4333-b191-fccc177a1401%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '50254'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=space%2Fspace%2Fstream&1=%2Fspace%2Fspace%2Fstream&limit=4&filters=&sort=c&from=&mode=normal&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'REQUEST_URI' => '/humhub/index.php?r=space%2Fspace%2Fstream&1=%2Fspace%2Fspace%2Fstream&limit=4&filters=&sort=c&from=&mode=normal&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1453758227.9
+    'REQUEST_TIME' => 1453758227
+    'argv' => [
+        0 => 'r=space%2Fspace%2Fstream&1=%2Fspace%2Fspace%2Fstream&limit=4&filters=&sort=c&from=&mode=normal&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    ]
+    'argc' => 1
+]
