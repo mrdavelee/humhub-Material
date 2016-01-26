@@ -10,7 +10,7 @@
  */
 ?>
 <?php if ($object->content->issticked()) : ?>
-    <span class="label label-danger"><?php echo Yii::t('ContentModule.widgets_views_label', 'sticked'); ?></span>
+    <span class="label label-danger"><?php echo Yii::t('ContentModule.widgets_views_label', 'sticky'); ?></span>
 <?php endif; ?>
 
 <?php if ($object->content->isArchived()) : ?>
