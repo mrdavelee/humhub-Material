@@ -129,9 +129,9 @@ class Generator extends \yii\gii\Generator
     /**
      * @inheritdoc
      */
-    public function stickedAttributes()
+    public function stickyAttributes()
     {
-        return array_merge(parent::stickedAttributes(), ['baseControllerClass', 'indexWidgetType']);
+        return array_merge(parent::stickyAttributes(), ['baseControllerClass', 'indexWidgetType']);
     }
 
     /**

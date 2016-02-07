@@ -168,9 +168,9 @@ class Generator extends \yii\gii\Generator
     /**
      * @inheritdoc
      */
-    public function stickedAttributes()
+    public function stickyAttributes()
     {
-        return array_merge(parent::stickedAttributes(), ['ns', 'db', 'baseClass', 'generateRelations', 'generateLabelsFromComments', 'queryNs', 'queryBaseClass']);
+        return array_merge(parent::stickyAttributes(), ['ns', 'db', 'baseClass', 'generateRelations', 'generateLabelsFromComments', 'queryNs', 'queryBaseClass']);
     }
 
     /**

@@ -28,7 +28,7 @@ use yii\web\View;
  *   This is the place where main code generation code resides.
  *
  * @property string $description The detailed description of the generator. This property is read-only.
- * @property string $stickedDataFile The file path that stores the sticked attribute values. This property is
+ * @property string $stickyDataFile The file path that stores the sticky attribute values. This property is
  * read-only.
  * @property string $templatePath The root path of the template files that are currently being used. This
  * property is read-only.
@@ -110,12 +110,12 @@ abstract class Generator extends Model
     }
 
     /**
-     * Returns the list of sticked attributes.
-     * A sticked attribute will remember its value and will initialize the attribute with this value
+     * Returns the list of sticky attributes.
+     * A sticky attribute will remember its value and will initialize the attribute with this value
      * when the generator is restarted.
-     * @return array list of sticked attributes
+     * @return array list of sticky attributes
      */
-    public function stickedAttributes()
+    public function stickyAttributes()
     {
         return ['template', 'enableI18N', 'messageCategory'];
     }
@@ -211,17 +211,17 @@ abstract class Generator extends Model
     }
 
     /**
-     * Loads sticked attributes from an internal file and populates them into the generator.
+     * Loads sticky attributes from an internal file and populates them into the generator.
      * @internal
      */
-    public function loadstickedAttributes()
+    public function loadStickyAttributes()
     {
-        $stickedAttributes = $this->stickedAttributes();
-        $path = $this->getstickedDataFile();
+        $stickyAttributes = $this->stickyAttributes();
+        $path = $this->getStickyDataFile();
         if (is_file($path)) {
             $result = json_decode(file_get_contents($path), true);
             if (is_array($result)) {
-                foreach ($stickedAttributes as $name) {
+                foreach ($stickyAttributes as $name) {
                     if (isset($result[$name])) {
                         $this->$name = $result[$name];
                     }
@@ -231,27 +231,27 @@ abstract class Generator extends Model
     }
 
     /**
-     * Saves sticked attributes into an internal file.
+     * Saves sticky attributes into an internal file.
      * @internal
      */
-    public function savestickedAttributes()
+    public function saveStickyAttributes()
     {
-        $stickedAttributes = $this->stickedAttributes();
-        $stickedAttributes[] = 'template';
+        $stickyAttributes = $this->stickyAttributes();
+        $stickyAttributes[] = 'template';
         $values = [];
-        foreach ($stickedAttributes as $name) {
+        foreach ($stickyAttributes as $name) {
             $values[$name] = $this->$name;
         }
-        $path = $this->getstickedDataFile();
+        $path = $this->getStickyDataFile();
         @mkdir(dirname($path), 0755, true);
         file_put_contents($path, json_encode($values));
     }
 
     /**
-     * @return string the file path that stores the sticked attribute values.
+     * @return string the file path that stores the sticky attribute values.
      * @internal
      */
-    public function getstickedDataFile()
+    public function getStickyDataFile()
     {
         return Yii::$app->getRuntimePath() . '/gii-' . Yii::getVersion() . '/' . str_replace('\\', '-', get_class($this)) . '.json';
     }

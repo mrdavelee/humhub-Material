@@ -668,7 +668,7 @@ Et similique qui non expedita quia dolorum. Ex rem incidunt ea accusantium tempo
       <state>Wyoming</state>
     </address>
     <company name="Lebsack, Bernhard and Kiehn" catchPhrase="Persevering actuating framework">
-      <offer>grow sticked portals</offer>
+      <offer>grow sticky portals</offer>
     </company>
     <details>
 <![CDATA[

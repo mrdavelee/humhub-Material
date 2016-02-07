@@ -43,7 +43,7 @@ class StickLink extends \yii\base\Widget
         return $this->render('stickLink', array(
                     'stickUrl' => Url::to(['/content/content/stick', 'id' => $this->content->content->id]),
                     'unstickUrl' => Url::to(['/content/content/un-stick', 'id' => $this->content->content->id]),
-                    'issticked' => $this->content->content->issticked()
+                    'isSticked' => $this->content->content->isSticked()
         ));
     }
 

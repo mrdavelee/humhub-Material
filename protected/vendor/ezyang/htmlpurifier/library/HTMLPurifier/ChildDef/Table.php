@@ -153,7 +153,7 @@ class HTMLPurifier_ChildDef_Table extends HTMLPurifier_ChildDef
                 $ws_accum =& $cols;
                 break;
             case '#PCDATA':
-                // How is whitespace handled? We treat is as sticked to
+                // How is whitespace handled? We treat is as sticky to
                 // the *end* of the previous element. So all of the
                 // nonsense we have worked on is to keep things
                 // together.

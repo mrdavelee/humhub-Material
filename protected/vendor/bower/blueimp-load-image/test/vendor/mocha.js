@@ -12056,7 +12056,7 @@ switch(os.type()) {
           type: "Darwin-Growl"
         , pkg: "growlnotify"
         , msg: '-m'
-        , sticked: '--sticked'
+        , sticky: '--sticky'
         , priority: {
               cmd: '--priority'
             , range: [
@@ -12080,7 +12080,7 @@ switch(os.type()) {
         type: "Linux"
       , pkg: "notify-send"
       , msg: ''
-      , sticked: '-t 0'
+      , sticky: '-t 0'
       , icon: '-i'
       , priority: {
           cmd: '-u'
@@ -12097,7 +12097,7 @@ switch(os.type()) {
         type: "Windows"
       , pkg: "growlnotify"
       , msg: ''
-      , sticked: '/s:true'
+      , sticky: '/s:true'
       , title: '/t:'
       , icon: '/i:'
       , priority: {
@@ -12132,7 +12132,7 @@ exports.version = '1.4.1'
  * Options:
  *
  *  - title   Notification title
- *  - sticked  Make the notification stick (defaults to false)
+ *  - sticky  Make the notification stick (defaults to false)
  *  - priority  Specify an int or named key (default is 0)
  *  - name    Application name (defaults to growlnotify)
  *  - image
@@ -12180,8 +12180,8 @@ function growl(msg, options, fn) {
         break;
       case 'Linux':
         args.push(cmd.icon, quote(image));
-        // libnotify defaults to sticked, set a hint for transient notifications
-        if (!options.sticked) args.push('--hint=int:transient:1');
+        // libnotify defaults to sticky, set a hint for transient notifications
+        if (!options.sticky) args.push('--hint=int:transient:1');
         break;
       case 'Windows':
         args.push(cmd.icon + quote(image));
@@ -12189,8 +12189,8 @@ function growl(msg, options, fn) {
     }
   }
 
-  // sticked
-  if (options.sticked) args.push(cmd.sticked);
+  // sticky
+  if (options.sticky) args.push(cmd.sticky);
 
   // priority
   if (options.priority) {

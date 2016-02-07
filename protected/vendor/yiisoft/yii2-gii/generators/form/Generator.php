@@ -100,9 +100,9 @@ class Generator extends \yii\gii\Generator
     /**
      * @inheritdoc
      */
-    public function stickedAttributes()
+    public function stickyAttributes()
     {
-        return array_merge(parent::stickedAttributes(), ['viewPath', 'scenarioName']);
+        return array_merge(parent::stickyAttributes(), ['viewPath', 'scenarioName']);
     }
 
     /**

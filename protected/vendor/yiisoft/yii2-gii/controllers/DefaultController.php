@@ -41,7 +41,7 @@ class DefaultController extends Controller
         $params = ['generator' => $generator, 'id' => $id];
         if (isset($_POST['preview']) || isset($_POST['generate'])) {
             if ($generator->validate()) {
-                $generator->savestickedAttributes();
+                $generator->saveStickyAttributes();
                 $files = $generator->generate();
                 if (isset($_POST['generate']) && !empty($_POST['answers'])) {
                     $params['hasError'] = !$generator->save($files, (array) $_POST['answers'], $results);
@@ -119,7 +119,7 @@ class DefaultController extends Controller
     {
         if (isset($this->module->generators[$id])) {
             $this->generator = $this->module->generators[$id];
-            $this->generator->loadstickedAttributes();
+            $this->generator->loadStickyAttributes();
             $this->generator->load($_POST);
 
             return $this->generator;

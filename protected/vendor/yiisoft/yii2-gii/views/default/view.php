@@ -36,7 +36,7 @@ foreach ($generator->templates as $name => $path) {
                     'generator' => $generator,
                     'form' => $form,
                 ]) ?>
-                <?= $form->field($generator, 'template')->sticked()
+                <?= $form->field($generator, 'template')->sticky()
                     ->label('Code Template')
                     ->dropDownList($templates)->hint('
                         Please select which set of the templates should be used to generated the code.

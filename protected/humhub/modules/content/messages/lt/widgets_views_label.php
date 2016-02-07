@@ -2,5 +2,5 @@
 return array (
   'Archived' => 'Archyvuotas',
   'Public' => 'Višas',
-  'sticked' => 'Prisegtas',
+  'Sticked' => 'Prisegtas',
 );

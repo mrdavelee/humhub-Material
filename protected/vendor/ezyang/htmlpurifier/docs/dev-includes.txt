@@ -230,7 +230,7 @@ load the library.
     One questions, however, the wisdom of letting PHP files write other PHP
     files. It seems like a recipe for disaster, or at least lots of headaches
     in highly secured setups, where PHP does not have the ability to write
-    to its root. In such cases, we could use sticked bits or tell the user
+    to its root. In such cases, we could use sticky bits or tell the user
     to manually generate the file.
 
     The other troublesome bit is actually doing the calculations necessary.

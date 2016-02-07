@@ -13,8 +13,8 @@ yii.gii = (function ($) {
         });
     };
 
-    var initstickedInputs = function () {
-        $('.sticked:not(.error)').find('input[type="text"],select,textarea').each(function () {
+    var initStickyInputs = function () {
+        $('.sticky:not(.error)').find('input[type="text"],select,textarea').each(function () {
             var value;
             if (this.tagName === 'SELECT') {
                 value = this.options[this.selectedIndex].text;
@@ -26,9 +26,9 @@ yii.gii = (function ($) {
             if (value === '') {
                 value = '[empty]';
             }
-            $(this).before('<div class="sticked-value">' + value + '</div>').hide();
+            $(this).before('<div class="sticky-value">' + value + '</div>').hide();
         });
-        $('.sticked-value').on('click', function () {
+        $('.sticky-value').on('click', function () {
             $(this).hide();
             $(this).next().show().get(0).focus();
         });
@@ -141,7 +141,7 @@ yii.gii = (function ($) {
         },
         init: function () {
             initHintBlocks();
-            initstickedInputs();
+            initStickyInputs();
             initPreviewDiffLinks();
             initConfirmationCheckboxes();
             initToggleActions();
@@ -182,11 +182,11 @@ yii.gii = (function ($) {
 
             // model generator: synchronize query namespace with model namespace
             $('#model-generator #generator-ns').on('blur', function () {
-                var stickedValue = $('#model-generator .field-generator-queryns .sticked-value');
+                var stickyValue = $('#model-generator .field-generator-queryns .sticky-value');
                 var input = $('#model-generator #generator-queryns');
-                if (stickedValue.is(':visible') || !input.is(':visible')) {
+                if (stickyValue.is(':visible') || !input.is(':visible')) {
                     var ns = $(this).val();
-                    stickedValue.html(ns);
+                    stickyValue.html(ns);
                     input.val(ns);
                 }
             });

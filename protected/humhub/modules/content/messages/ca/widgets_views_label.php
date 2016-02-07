@@ -2,5 +2,5 @@
 return array (
   'Archived' => 'Arxivat',
   'Public' => 'Públic',
-  'sticked' => 'Fixat',
+  'Sticked' => 'Fixat',
 );

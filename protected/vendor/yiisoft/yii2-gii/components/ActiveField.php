@@ -27,9 +27,9 @@ class ActiveField extends \yii\widgets\ActiveField
      */
     public function init()
     {
-        $stickedAttributes = $this->model->stickedAttributes();
-        if (in_array($this->attribute, $stickedAttributes)) {
-            $this->sticked();
+        $stickyAttributes = $this->model->stickyAttributes();
+        if (in_array($this->attribute, $stickyAttributes)) {
+            $this->sticky();
         }
         $hints = $this->model->hints();
         if (isset($hints[$this->attribute])) {
@@ -49,9 +49,9 @@ class ActiveField extends \yii\widgets\ActiveField
      * Makes field remember its value between page reloads
      * @return static the field object itself
      */
-    public function sticked()
+    public function sticky()
     {
-        $this->options['class'] .= ' sticked';
+        $this->options['class'] .= ' sticky';
 
         return $this;
     }

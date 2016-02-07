@@ -41,7 +41,7 @@ class WallStreamWidget extends HWidget
      * Number of stream content loaded by request.
      *
      * Should be at least 4, because its possible to stick at maximum 3 object
-     * Otherwise sticked system may break the wall
+     * Otherwise sticky system may break the wall
      *
      * @var int
      */

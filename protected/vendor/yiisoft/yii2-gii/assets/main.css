@@ -49,7 +49,7 @@ body {
     margin: 0 0 15px 0;
 }
 
-.default-view .sticked-value {
+.default-view .sticky-value {
     padding: 6px 12px;
     background: lightyellow;
     white-space: pre;

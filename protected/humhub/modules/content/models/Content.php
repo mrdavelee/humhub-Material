@@ -120,7 +120,7 @@ class Content extends \humhub\components\ActiveRecord
             'object_model' => 'Object Model',
             'object_id' => 'Object',
             'visibility' => 'Visibility',
-            'sticked' => 'sticked',
+            'sticked' => 'Sticked',
             'archived' => 'Archived',
             'space_id' => 'Space',
             'user_id' => 'User',
@@ -387,7 +387,7 @@ class Content extends \humhub\components\ActiveRecord
      *
      * @return Boolean
      */
-    public function issticked()
+    public function isSticked()
     {
         return ($this->sticked);
     }
@@ -437,7 +437,7 @@ class Content extends \humhub\components\ActiveRecord
      *
      * @return Int
      */
-    public function countstickedItems()
+    public function countStickedItems()
     {
         $wallId = $this->container->wall_id;
         return WallEntry::find()->joinWith('content')->where(['wall_entry.wall_id'=>$wallId, 'content.sticked' => 1])->count();
@@ -479,7 +479,7 @@ class Content extends \humhub\components\ActiveRecord
     {
         if ($this->canArchive()) {
 
-            if ($this->issticked()) {
+            if ($this->isSticked()) {
                 $this->unstick();
             }
 

@@ -2,5 +2,5 @@
 return array (
   'Archived' => '',
   'Public' => '公開',
-  'sticked' => '',
+  'Sticked' => '',
 );

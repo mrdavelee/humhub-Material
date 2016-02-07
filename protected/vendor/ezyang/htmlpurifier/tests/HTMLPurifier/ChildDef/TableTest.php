@@ -65,13 +65,13 @@ class HTMLPurifier_ChildDef_TableTest extends HTMLPurifier_ChildDefHarness
         $this->assertResult('foo', false);
     }
 
-    public function teststickedWhitespaceOnTr()
+    public function testStickyWhitespaceOnTr()
     {
         $this->config->set('Output.Newline', "\n");
         $this->assertResult("\n   <tr />\n  <tr />\n ");
     }
 
-    public function teststickedWhitespaceOnTSection()
+    public function testStickyWhitespaceOnTSection()
     {
         $this->config->set('Output.Newline', "\n");
         $this->assertResult(

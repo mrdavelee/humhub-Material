@@ -19,5 +19,5 @@
 return array (
   'Archived' => '已存档',
   'Public' => '公共',
-  'sticked' => '已标记',
+  'Sticked' => '已标记',
 );

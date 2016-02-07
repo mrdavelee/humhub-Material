@@ -4,8 +4,8 @@
     'db' => 
     array (
       'class' => 'yii\\db\\Connection',
-      'dsn' => 'mysql:host=localhost;dbname=social',
-      'username' => 'social_dbuser',
+      'dsn' => 'mysql:host=localhost;dbname=eventhub',
+      'username' => 'eventhub_dbuser',
       'password' => 'Platinumsun1',
       'charset' => 'utf8',
     ),
@@ -35,6 +35,15 @@
         'basePath' => '/Applications/MAMP/htdocs/humhub/themes/HumHub',
       ),
     ),
+    'formatter' => 
+    array (
+      'defaultTimeZone' => 'Europe/Berlin',
+    ),
+    'formatterApp' => 
+    array (
+      'defaultTimeZone' => 'Europe/Berlin',
+      'timeZone' => 'Europe/Berlin',
+    ),
   ),
   'params' => 
   array (
@@ -43,7 +52,7 @@
       'db' => 
       array (
         'installer_hostname' => 'localhost',
-        'installer_database' => 'social',
+        'installer_database' => 'eventhub',
       ),
     ),
     'settings' => 
@@ -57,14 +66,14 @@
         'colorWarning' => '#fdd198',
         'colorDanger' => '#ff8989',
         'oembedProviders' => '{"vimeo.com":"http:\\/\\/vimeo.com\\/api\\/oembed.json?scheme=https&url=%url%&format=json&maxwidth=450","youtube.com":"http:\\/\\/www.youtube.com\\/oembed?scheme=https&url=%url%&format=json&maxwidth=450","youtu.be":"http:\\/\\/www.youtube.com\\/oembed?scheme=https&url=%url%&format=json&maxwidth=450","soundcloud.com":"https:\\/\\/soundcloud.com\\/oembed?url=%url%&format=json&maxwidth=450","slideshare.net":"https:\\/\\/www.slideshare.net\\/api\\/oembed\\/2?url=%url%&format=json&maxwidth=450"}',
-        'name' => 'onSocial',
+        'name' => 'EventHub',
         'baseUrl' => 'http://localhost:8888/humhub',
         'paginationSize' => '10',
         'displayNameFormat' => '{profile.firstname} {profile.lastname}',
         'theme' => 'HumHub',
         'defaultLanguage' => 'en_gb',
         'useCase' => 'community',
-        'secret' => 'cd02d770-5831-4e0b-865f-1b7a06286ecd',
+        'secret' => 'ab970963-82d1-4a1e-bea8-b0815c43c325',
         'timeZone' => 'Europe/Berlin',
       ),
       'space' => 
@@ -92,10 +101,16 @@
       'mailing' => 
       array (
         'transportType' => 'php',
-        'systemEmailAddress' => 'social@example.com',
-        'systemEmailName' => 'onSocial',
+        'systemEmailAddress' => 'mrdavelee2012@gmail.com',
+        'systemEmailName' => 'EventHub',
         'receive_email_activities' => '1',
         'receive_email_notifications' => '2',
+        'hostname' => 'smtp.gmail.com',
+        'username' => 'mrdavelee2012@gmail.com',
+        'password' => 'platinumsun',
+        'port' => '587',
+        'encryption' => 'tls',
+        'allowSelfSignedCerts' => '0',
       ),
       'file' => 
       array (
@@ -111,7 +126,7 @@
       ),
       'admin' => 
       array (
-        'installationId' => 'bfd46a9bce5a3dc66611145dfd4a7e30',
+        'installationId' => '94b813b9fc6000c943cae6cba6eb3809',
       ),
       'tour' => 
       array (
@@ -138,10 +153,11 @@
         'sampleData' => '1',
       ),
     ),
-    'config_created_at' => 1453750080,
+    'config_created_at' => 1454798617,
     'databaseInstalled' => true,
     'installed' => true,
   ),
-  'name' => 'onSocial',
+  'name' => 'EventHub',
   'language' => 'en_gb',
+  'timeZone' => 'Europe/Berlin',
 ); ?>

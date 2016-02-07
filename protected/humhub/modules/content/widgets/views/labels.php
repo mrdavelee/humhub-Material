@@ -9,8 +9,8 @@
  * @since 0.5
  */
 ?>
-<?php if ($object->content->issticked()) : ?>
-    <span class="label label-danger"><?php echo Yii::t('ContentModule.widgets_views_label', 'sticky'); ?></span>
+<?php if ($object->content->isSticked()) : ?>
+    <span class="label label-danger"><?php echo Yii::t('ContentModule.widgets_views_label', 'Sticked'); ?></span>
 <?php endif; ?>
 
 <?php if ($object->content->isArchived()) : ?>

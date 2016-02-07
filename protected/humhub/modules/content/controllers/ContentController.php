@@ -133,7 +133,7 @@ class ContentController extends Controller
 
         $content = Content::findOne(['id' => Yii::$app->request->get('id', "")]);
         if ($content !== null && $content->canStick()) {
-            if ($content->countstickedItems() < 2) {
+            if ($content->countStickedItems() < 2) {
                 $content->stick();
 
                 $json['success'] = true;

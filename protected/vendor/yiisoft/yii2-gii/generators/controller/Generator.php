@@ -104,7 +104,7 @@ class Generator extends \yii\gii\Generator
     /**
      * @inheritdoc
      */
-    public function stickedAttributes()
+    public function stickyAttributes()
     {
         return ['baseClass'];
     }

@@ -2,5 +2,5 @@
 return array (
   'Archived' => 'أرشيف',
   'Public' => 'عام',
-  'sticked' => 'مثبت',
+  'Sticked' => 'مثبت',
 );

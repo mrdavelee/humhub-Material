@@ -2,5 +2,5 @@
 return array (
   'Archived' => 'Archiviato',
   'Public' => 'Pubblico',
-  'sticked' => 'In evidenza',
+  'Sticked' => 'In evidenza',
 );

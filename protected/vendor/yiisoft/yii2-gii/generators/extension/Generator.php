@@ -124,7 +124,7 @@ class Generator extends \yii\gii\Generator
     /**
      * @inheritdoc
      */
-    public function stickedAttributes()
+    public function stickyAttributes()
     {
         return ['vendorName', 'outputPath', 'authorName', 'authorEmail'];
     }

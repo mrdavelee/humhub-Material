@@ -19,5 +19,5 @@
 return array (
   'Archived' => '',
   'Public' => '',
-  'sticked' => '',
+  'Sticked' => '',
 );
