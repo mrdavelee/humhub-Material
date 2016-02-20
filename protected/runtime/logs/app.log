@@ -379,3 +379,486 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2016-02-07 12:42:36 [::1][-][1bc00309e0e6a100cb6d025946c51e99][error][yii\web\HttpException:500] exception 'yii\web\HttpException' with message 'HumHub is already installed!' in /Applications/MAMP/htdocs/humhub/protected/humhub/modules/installer/Module.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(139): humhub\modules\installer\Module->beforeAction(Object(yii\base\InlineAction))
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#2 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('installer/index', Array)
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#4 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#5 {main}
+2016-02-07 12:42:36 [::1][-][1bc00309e0e6a100cb6d025946c51e99][info][application] $_GET = [
+    'r' => 'installer/index'
+]
+
+$_COOKIE = [
+    'pm_space-members-panel' => 'expanded'
+    'pm_getting-started-panel' => 'expanded'
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    '_ga' => 'GA1.1.277958683.1408455733'
+    'PHPSESSID' => '1bc00309e0e6a100cb6d025946c51e99'
+    '_identity' => '312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"f9c065e3-6caf-4333-b191-fccc177a1401\",2592000]\";}'
+    '_csrf' => 'd587177e4f39057efec116c7b8823b282aa4c94e96561473c211907d1fddeba5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8X4tnt_jUr4smwiMBhXerToVo-nEJeRN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/humhub/index.php?r=calendar%2Fglobal%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'pm_space-members-panel=expanded; pm_getting-started-panel=expanded; pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; _ga=GA1.1.277958683.1408455733; PHPSESSID=1bc00309e0e6a100cb6d025946c51e99; _identity=312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22f9c065e3-6caf-4333-b191-fccc177a1401%22%2C2592000%5D%22%3B%7D; _csrf=d587177e4f39057efec116c7b8823b282aa4c94e96561473c211907d1fddeba5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228X4tnt_jUr4smwiMBhXerToVo-nEJeRN%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '61089'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=installer%2Findex'
+    'REQUEST_URI' => '/humhub/index.php?r=installer%2Findex'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1454845356.26
+    'REQUEST_TIME' => 1454845356
+    'argv' => [
+        0 => 'r=installer%2Findex'
+    ]
+    'argc' => 1
+]
+2016-02-07 12:42:37 [::1][-][1bc00309e0e6a100cb6d025946c51e99][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isModuleEnabled() on null' in /Applications/MAMP/htdocs/humhub/protected/modules/calendar/controllers/GlobalController.php:24
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-07 12:42:37 [::1][-][1bc00309e0e6a100cb6d025946c51e99][info][application] $_GET = [
+    'r' => 'calendar/global/index'
+]
+
+$_COOKIE = [
+    'pm_space-members-panel' => 'expanded'
+    'pm_getting-started-panel' => 'expanded'
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    '_ga' => 'GA1.1.277958683.1408455733'
+    'PHPSESSID' => '1bc00309e0e6a100cb6d025946c51e99'
+    '_identity' => '312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"f9c065e3-6caf-4333-b191-fccc177a1401\",2592000]\";}'
+    '_csrf' => 'd587177e4f39057efec116c7b8823b282aa4c94e96561473c211907d1fddeba5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8X4tnt_jUr4smwiMBhXerToVo-nEJeRN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/humhub/index.php?r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'pm_space-members-panel=expanded; pm_getting-started-panel=expanded; pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; _ga=GA1.1.277958683.1408455733; PHPSESSID=1bc00309e0e6a100cb6d025946c51e99; _identity=312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22f9c065e3-6caf-4333-b191-fccc177a1401%22%2C2592000%5D%22%3B%7D; _csrf=d587177e4f39057efec116c7b8823b282aa4c94e96561473c211907d1fddeba5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228X4tnt_jUr4smwiMBhXerToVo-nEJeRN%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '61051'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=calendar%2Fglobal%2Findex'
+    'REQUEST_URI' => '/humhub/index.php?r=calendar%2Fglobal%2Findex'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1454845357.22
+    'REQUEST_TIME' => 1454845357
+    'argv' => [
+        0 => 'r=calendar%2Fglobal%2Findex'
+    ]
+    'argc' => 1
+]
+2016-02-07 12:42:38 [::1][-][1bc00309e0e6a100cb6d025946c51e99][error][yii\web\HttpException:404] exception 'yii\web\HttpException' with message 'Space not found!' in /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/ContentContainerController.php:71
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Object.php(107): humhub\modules\content\components\ContentContainerController->init()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(81): yii\base\Object->__construct(Array)
+#2 [internal function]: yii\base\Controller->__construct('space', Object(humhub\modules\space\Module), Array)
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(151): yii\di\Container->build('humhub\\modules\\...', Array, Array)
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/BaseYii.php(340): yii\di\Container->get('humhub\\modules\\...', Array)
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(568): yii\BaseYii::createObject('humhub\\modules\\...', Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID('space')
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(513): yii\base\Module->createController('space')
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('space/space')
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space', Array)
+#11 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#12 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#13 {main}
+2016-02-07 12:42:38 [::1][-][1bc00309e0e6a100cb6d025946c51e99][info][application] $_GET = [
+    'r' => 'space/space'
+    'sguid' => '71f97718-d0b9-45bd-883c-116372d9794e'
+]
+
+$_COOKIE = [
+    'pm_space-members-panel' => 'expanded'
+    'pm_getting-started-panel' => 'expanded'
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    '_ga' => 'GA1.1.277958683.1408455733'
+    'PHPSESSID' => '1bc00309e0e6a100cb6d025946c51e99'
+    '_identity' => '312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"f9c065e3-6caf-4333-b191-fccc177a1401\",2592000]\";}'
+    '_csrf' => 'd587177e4f39057efec116c7b8823b282aa4c94e96561473c211907d1fddeba5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8X4tnt_jUr4smwiMBhXerToVo-nEJeRN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/humhub/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'pm_space-members-panel=expanded; pm_getting-started-panel=expanded; pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; _ga=GA1.1.277958683.1408455733; PHPSESSID=1bc00309e0e6a100cb6d025946c51e99; _identity=312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22f9c065e3-6caf-4333-b191-fccc177a1401%22%2C2592000%5D%22%3B%7D; _csrf=d587177e4f39057efec116c7b8823b282aa4c94e96561473c211907d1fddeba5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228X4tnt_jUr4smwiMBhXerToVo-nEJeRN%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '61202'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'REQUEST_URI' => '/humhub/index.php?r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1454845358.37
+    'REQUEST_TIME' => 1454845358
+    'argv' => [
+        0 => 'r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    ]
+    'argc' => 1
+]
+2016-02-07 12:42:40 [::1][-][1bc00309e0e6a100cb6d025946c51e99][error][yii\web\HttpException:404] exception 'yii\web\HttpException' with message 'Space not found!' in /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/ContentContainerController.php:71
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Object.php(107): humhub\modules\content\components\ContentContainerController->init()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(81): yii\base\Object->__construct(Array)
+#2 [internal function]: yii\base\Controller->__construct('space', Object(humhub\modules\space\Module), Array)
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(151): yii\di\Container->build('humhub\\modules\\...', Array, Array)
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/BaseYii.php(340): yii\di\Container->get('humhub\\modules\\...', Array)
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(568): yii\BaseYii::createObject('humhub\\modules\\...', Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID('space')
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(513): yii\base\Module->createController('space')
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('space/space')
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space', Array)
+#11 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#12 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#13 {main}
+2016-02-07 12:42:39 [::1][-][1bc00309e0e6a100cb6d025946c51e99][info][application] $_GET = [
+    'r' => 'space/space'
+    'sguid' => '71f97718-d0b9-45bd-883c-116372d9794e'
+]
+
+$_COOKIE = [
+    'pm_space-members-panel' => 'expanded'
+    'pm_getting-started-panel' => 'expanded'
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    '_ga' => 'GA1.1.277958683.1408455733'
+    'PHPSESSID' => '1bc00309e0e6a100cb6d025946c51e99'
+    '_identity' => '312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"f9c065e3-6caf-4333-b191-fccc177a1401\",2592000]\";}'
+    '_csrf' => 'd587177e4f39057efec116c7b8823b282aa4c94e96561473c211907d1fddeba5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8X4tnt_jUr4smwiMBhXerToVo-nEJeRN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'pm_space-members-panel=expanded; pm_getting-started-panel=expanded; pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; _ga=GA1.1.277958683.1408455733; PHPSESSID=1bc00309e0e6a100cb6d025946c51e99; _identity=312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22f9c065e3-6caf-4333-b191-fccc177a1401%22%2C2592000%5D%22%3B%7D; _csrf=d587177e4f39057efec116c7b8823b282aa4c94e96561473c211907d1fddeba5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228X4tnt_jUr4smwiMBhXerToVo-nEJeRN%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '61202'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'REQUEST_URI' => '/humhub/index.php?r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1454845359.92
+    'REQUEST_TIME' => 1454845359
+    'argv' => [
+        0 => 'r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    ]
+    'argc' => 1
+]
+2016-02-07 12:42:50 [::1][-][1bc00309e0e6a100cb6d025946c51e99][error][yii\web\HttpException:404] exception 'yii\web\HttpException' with message 'Space not found!' in /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/ContentContainerController.php:71
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Object.php(107): humhub\modules\content\components\ContentContainerController->init()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(81): yii\base\Object->__construct(Array)
+#2 [internal function]: yii\base\Controller->__construct('space', Object(humhub\modules\space\Module), Array)
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(151): yii\di\Container->build('humhub\\modules\\...', Array, Array)
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/BaseYii.php(340): yii\di\Container->get('humhub\\modules\\...', Array)
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(568): yii\BaseYii::createObject('humhub\\modules\\...', Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID('space')
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(513): yii\base\Module->createController('space')
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('space/space')
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space', Array)
+#11 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#12 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#13 {main}
+2016-02-07 12:42:50 [::1][-][1bc00309e0e6a100cb6d025946c51e99][info][application] $_GET = [
+    'r' => 'space/space'
+    'sguid' => '71f97718-d0b9-45bd-883c-116372d9794e'
+]
+
+$_COOKIE = [
+    'pm_space-members-panel' => 'expanded'
+    'pm_getting-started-panel' => 'expanded'
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    '_ga' => 'GA1.1.277958683.1408455733'
+    'PHPSESSID' => '1bc00309e0e6a100cb6d025946c51e99'
+    '_identity' => '312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"f9c065e3-6caf-4333-b191-fccc177a1401\",2592000]\";}'
+    '_csrf' => 'd587177e4f39057efec116c7b8823b282aa4c94e96561473c211907d1fddeba5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8X4tnt_jUr4smwiMBhXerToVo-nEJeRN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'pm_space-members-panel=expanded; pm_getting-started-panel=expanded; pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; _ga=GA1.1.277958683.1408455733; PHPSESSID=1bc00309e0e6a100cb6d025946c51e99; _identity=312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22f9c065e3-6caf-4333-b191-fccc177a1401%22%2C2592000%5D%22%3B%7D; _csrf=d587177e4f39057efec116c7b8823b282aa4c94e96561473c211907d1fddeba5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228X4tnt_jUr4smwiMBhXerToVo-nEJeRN%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '61481'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'REQUEST_URI' => '/humhub/index.php?r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1454845370.78
+    'REQUEST_TIME' => 1454845370
+    'argv' => [
+        0 => 'r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    ]
+    'argc' => 1
+]
+2016-02-07 12:47:12 [::1][-][1bc00309e0e6a100cb6d025946c51e99][error][yii\web\HttpException:404] exception 'yii\web\HttpException' with message 'Space not found!' in /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/ContentContainerController.php:71
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Object.php(107): humhub\modules\content\components\ContentContainerController->init()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(81): yii\base\Object->__construct(Array)
+#2 [internal function]: yii\base\Controller->__construct('space', Object(humhub\modules\space\Module), Array)
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(151): yii\di\Container->build('humhub\\modules\\...', Array, Array)
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/BaseYii.php(340): yii\di\Container->get('humhub\\modules\\...', Array)
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(568): yii\BaseYii::createObject('humhub\\modules\\...', Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID('space')
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(513): yii\base\Module->createController('space')
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('space/space')
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space', Array)
+#11 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#12 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#13 {main}
+2016-02-07 12:47:12 [::1][-][1bc00309e0e6a100cb6d025946c51e99][info][application] $_GET = [
+    'r' => 'space/space'
+    'sguid' => '71f97718-d0b9-45bd-883c-116372d9794e'
+]
+
+$_COOKIE = [
+    'pm_space-members-panel' => 'expanded'
+    'pm_getting-started-panel' => 'expanded'
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    '_ga' => 'GA1.1.277958683.1408455733'
+    'PHPSESSID' => '1bc00309e0e6a100cb6d025946c51e99'
+    '_identity' => '312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"f9c065e3-6caf-4333-b191-fccc177a1401\",2592000]\";}'
+    '_csrf' => 'd587177e4f39057efec116c7b8823b282aa4c94e96561473c211907d1fddeba5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8X4tnt_jUr4smwiMBhXerToVo-nEJeRN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'pm_space-members-panel=expanded; pm_getting-started-panel=expanded; pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; _ga=GA1.1.277958683.1408455733; PHPSESSID=1bc00309e0e6a100cb6d025946c51e99; _identity=312a1fea8fab0564bbb1c7645571f56e233918701e6fa90c7311f1d8eb841bc0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22f9c065e3-6caf-4333-b191-fccc177a1401%22%2C2592000%5D%22%3B%7D; _csrf=d587177e4f39057efec116c7b8823b282aa4c94e96561473c211907d1fddeba5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228X4tnt_jUr4smwiMBhXerToVo-nEJeRN%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '50192'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'REQUEST_URI' => '/humhub/index.php?r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1454845632.67
+    'REQUEST_TIME' => 1454845632
+    'argv' => [
+        0 => 'r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    ]
+    'argc' => 1
+]
+2016-02-12 22:20:22 [::1][1][0eabc15229318c8d0c3cfa4e70c1f172][error][yii\web\HttpException:404] exception 'yii\web\HttpException' with message 'Space not found!' in /Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/ContentContainerController.php:71
+Stack trace:
+#0 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Object.php(107): humhub\modules\content\components\ContentContainerController->init()
+#1 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Controller.php(81): yii\base\Object->__construct(Array)
+#2 [internal function]: yii\base\Controller->__construct('space', Object(humhub\modules\space\Module), Array)
+#3 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#4 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/di/Container.php(151): yii\di\Container->build('humhub\\modules\\...', Array, Array)
+#5 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/BaseYii.php(340): yii\di\Container->get('humhub\\modules\\...', Array)
+#6 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(568): yii\BaseYii::createObject('humhub\\modules\\...', Array)
+#7 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID('space')
+#8 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(513): yii\base\Module->createController('space')
+#9 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('space/space')
+#10 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('space/space', Array)
+#11 /Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#12 /Applications/MAMP/htdocs/humhub/index.php(25): yii\base\Application->run()
+#13 {main}
+2016-02-12 22:20:22 [::1][1][0eabc15229318c8d0c3cfa4e70c1f172][info][application] $_GET = [
+    'r' => 'space/space'
+    'sguid' => '71f97718-d0b9-45bd-883c-116372d9794e'
+]
+
+$_COOKIE = [
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    'pm_getting-started-panel' => 'expanded'
+    'pm_space-members-panel' => 'expanded'
+    'pm_user-statistics-panel' => 'expanded'
+    'pm_user-tags-panel' => 'expanded'
+    'pm_user-spaces-panel' => 'expanded'
+    'G_ENABLED_IDPS' => 'google'
+    'language' => '4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a:2:{i:0;s:8:\"language\";i:1;s:5:\"en_gb\";}'
+    '_identity' => '97532237ca0354241d48ea228c0df8d558803bc00fed05e700e5c5e5f98e842ca:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"ff21f531-aee3-4ba3-8431-a6b406324211\",2592000]\";}'
+    'PHPSESSID' => '0eabc15229318c8d0c3cfa4e70c1f172'
+    '_csrf' => '1477216276d0a467c1a17a7759a0f7a3a68c11acd79d840c6c54cd753c8579e9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rcHPWnRJU9x9M2L5OAIA8LkXEouJbily\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8888/humhub/index.php?r=directory%2Fdirectory%2Fmembers'
+    'HTTP_COOKIE' => 'pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; pm_getting-started-panel=expanded; pm_space-members-panel=expanded; pm_user-statistics-panel=expanded; pm_user-tags-panel=expanded; pm_user-spaces-panel=expanded; G_ENABLED_IDPS=google; language=4cce991ce7c7e664287fdb6f720d2a6a63def6686d3cc500d5f368e7413c63a1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22en_gb%22%3B%7D; _identity=97532237ca0354241d48ea228c0df8d558803bc00fed05e700e5c5e5f98e842ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ff21f531-aee3-4ba3-8431-a6b406324211%22%2C2592000%5D%22%3B%7D; PHPSESSID=0eabc15229318c8d0c3cfa4e70c1f172; _csrf=1477216276d0a467c1a17a7759a0f7a3a68c11acd79d840c6c54cd753c8579e9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rcHPWnRJU9x9M2L5OAIA8LkXEouJbily%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '55029'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'REQUEST_URI' => '/humhub/index.php?r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1455312022.67
+    'REQUEST_TIME' => 1455312022
+    'argv' => [
+        0 => 'r=space%2Fspace&sguid=71f97718-d0b9-45bd-883c-116372d9794e'
+    ]
+    'argc' => 1
+]

@@ -1,0 +1,978 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"set",
+				"setSelect"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"Mess",
+				"message"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"day",
+				"dayArray"
+			],
+			[
+				"mon",
+				"month"
+			],
+			[
+				"s",
+				"start"
+			],
+			[
+				"dir",
+				"dirText"
+			],
+			[
+				"DB",
+				"DB_TABLE"
+			],
+			[
+				"db",
+				"DB_PASS"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"brian",
+				"brianinfo"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"data",
+				"data-href"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"phpmai",
+				"PHPMailer"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"background",
+				"background-image"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "themes/HumHub/css/theme.less",
+			"settings":
+			{
+				"buffer_size": 49924,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "protected/humhub/modules/admin/messages/en_uk/views_setting_mailing_server.php",
+			"settings":
+			{
+				"buffer_size": 822,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pa",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/humhub",
+		"/Applications/MAMP/htdocs/humhub/protected",
+		"/Applications/MAMP/htdocs/humhub/themes"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/humhub/composer.json",
+		"/Applications/MAMP/htdocs/humhub/composer.lock",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/docs/guide/admin-installation.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/mime-db/db.json",
+		"/Applications/MAMP/htdocs/humhub/protected/vendor/swiftmailer/swiftmailer/lib/classes/Swift.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/config/common.php",
+		"/Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2-swiftmailer/Mailer.php",
+		"/Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/mail/BaseMailer.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/admin/controllers/SettingController.php",
+		"/Applications/MAMP/htdocs/humhub/protected/vendor/raoul2000/yii2-jcrop-widget/assets/js/jquery.Jcrop.js",
+		"/Applications/MAMP/htdocs/humhub/themes/HumHub/css/theme.less",
+		"/Users/Mac/Downloads/Story_TopBlock_Style2_Picture.xsl",
+		"/Users/Mac/Downloads/_picture.story(1).css",
+		"/Users/Mac/Downloads/_picture.story.css",
+		"/Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2-gii/views/default/view.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/user/views/account/cropBannerImage.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/space/modules/manage/views/image/cropBanner.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/widgets/views/labels.php",
+		"/Applications/MAMP/htdocs/humhub/protected/vendor/raoul2000/yii2-jcrop-widget/JCropWidget.php",
+		"/Applications/MAMP/htdocs/humhub/themes/HumHub/css/theme.css",
+		"/Applications/MAMP/htdocs/humhub/protected/vendor/raoul2000/yii2-jcrop-widget/assets/js/jquery.Jcrop.min.js",
+		"/Applications/MAMP/htdocs/humhub/resources/jcrop/jquery.Jcrop.js",
+		"/Applications/MAMP/htdocs/humhub/assets/20bf3c6b/js/jquery.Jcrop.js",
+		"/Applications/MAMP/htdocs/humhub/protected/vendor/bower/blueimp-load-image/js/vendor/jquery.Jcrop.js",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/user/messages/ja/views_profile_cropBannerImage.php",
+		"/Applications/MAMP/htdocs/humhub/assets/20bf3c6b/js/jquery.Jcrop.min.js",
+		"/Applications/MAMP/htdocs/humhub/protected/config/common.php",
+		"/Applications/MAMP/htdocs/humhub/themes/hivehub/views/layouts/main.php",
+		"/Applications/MAMP/htdocs/humhub/resources/jcrop/jquery.Jcrop.min.js",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/user/widgets/views/profileHeader.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/space/widgets/views/header.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/space/views/space/_layout.php",
+		"/Applications/MAMP/htdocs/humhub/protected/vendor/bower/bootstrap/less/mixins/resize.less",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/admin/libs/OnlineModuleManager.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/views/layouts/main.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/space/widgets/Header.php",
+		"/Applications/MAMP/htdocs/humhub/protected/modules/album/module.json",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/bin-version-check/node_modules/bin-version/node_modules/find-versions/node_modules/meow/node_modules/normalize-package-data/node_modules/is-builtin-module/node_modules/builtin-modules/builtin-modules.json",
+		"/Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2/caching/Cache.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/widgets/WallStreamWidget.php",
+		"/Applications/MAMP/htdocs/humhub/protected/vendor/bower/blueimp-load-image/test/vendor/mocha.js",
+		"/Applications/MAMP/htdocs/humhub/protected/vendor/yiisoft/yii2-gii/components/ActiveField.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/admin/views/module/listOnline.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/widgets/views/wallEntry.php",
+		"/Applications/MAMP/htdocs/humhub/assets/5ccca43/css/font-awesome.css",
+		"/Applications/MAMP/htdocs/humhub/assets/5ccca43/css/font-awesome.min.css",
+		"/Applications/MAMP/htdocs/humhub/assets/5ccca43/less/icons.less",
+		"/Applications/MAMP/htdocs/humhub/assets/5ccca43/less/variables.less",
+		"/Applications/MAMP/htdocs/humhub/assets/5ccca43/scss/_icons.scss",
+		"/Applications/MAMP/htdocs/humhub/assets/5ccca43/scss/_variables.scss",
+		"/Applications/MAMP/htdocs/humhub/node_modules/accord/node_modules/uglify-js/tools/domprops.json",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-autoprefixer/node_modules/autoprefixer/CHANGELOG.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-autoprefixer/node_modules/autoprefixer/data/prefixes.js",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/data.json",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/features-json/css-sticky.json",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/fulldata-json/data-1.0.json",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/fulldata-json/data-2.0.json",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-cssnano/node_modules/cssnano/node_modules/autoprefixer/CHANGELOG.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-cssnano/node_modules/cssnano/node_modules/autoprefixer/data/prefixes.js",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-cssnano/node_modules/cssnano/node_modules/autoprefixer/node_modules/caniuse-db/data.json",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-cssnano/node_modules/cssnano/node_modules/autoprefixer/node_modules/caniuse-db/features-json/css-sticky.json",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-cssnano/node_modules/cssnano/node_modules/autoprefixer/node_modules/caniuse-db/fulldata-json/data-1.0.json",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-cssnano/node_modules/cssnano/node_modules/autoprefixer/node_modules/caniuse-db/fulldata-json/data-2.0.json",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/History.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/index.js",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/README.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/History.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/index.js",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/README.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/History.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/index.js",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/README.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/History.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/index.js",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/README.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/History.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/index.js",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/README.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/History.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/index.js",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/stat-mode/README.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-notify/node_modules/node-notifier/node_modules/growly/example/bakery.js",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-notify/node_modules/node-notifier/node_modules/growly/lib/growly.js",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-notify/node_modules/node-notifier/node_modules/growly/README.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-notify/node_modules/node-notifier/README.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/gulp-uglify/node_modules/uglify-js/tools/domprops.json",
+		"/Applications/MAMP/htdocs/humhub/node_modules/jshint/node_modules/shelljs/src/chmod.js",
+		"/Applications/MAMP/htdocs/humhub/node_modules/mocha/mocha.js",
+		"/Applications/MAMP/htdocs/humhub/node_modules/mocha/node_modules/growl/lib/growl.js",
+		"/Applications/MAMP/htdocs/humhub/node_modules/mocha/node_modules/growl/Readme.md",
+		"/Applications/MAMP/htdocs/humhub/node_modules/mocha/node_modules/growl/test.js",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/ar/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/ca/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/cs/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/da/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/de/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/es/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/fa_ir/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/fr/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/it/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/lt/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/nl/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/pl/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/pt_br/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/ru/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/tr/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/vi/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/messages/zh_cn/archive.json",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/components/actions/ContentContainerStream.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/controllers/ContentController.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/an/controllers_ContentController.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/an/widgets_views_label.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/ar/controllers_ContentController.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/ar/widgets_views_label.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/bg/controllers_ContentController.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/bg/widgets_views_label.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/ca/controllers_ContentController.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/ca/widgets_views_label.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/cs/controllers_ContentController.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/cs/widgets_views_label.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/da/controllers_ContentController.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/da/widgets_views_label.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/de/controllers_ContentController.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/de/widgets_views_label.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/el/controllers_ContentController.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/el/widgets_views_label.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/en_uk/controllers_ContentController.php",
+		"/Applications/MAMP/htdocs/humhub/protected/humhub/modules/content/messages/en_uk/widgets_views_label.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/humhub,-node_modules",
+			"/Applications/MAMP/htdocs/humhub",
+			"/Applications/MAMP/htdocs/humhub,-node_modules/",
+			"/Applications/MAMP/htdocs/humhub",
+			"/Applications/MAMP/htdocs/humhub,-node_modules/",
+			"/Applications/MAMP/htdocs/humhub",
+			"/Applications/MAMP/htdocs/humhub,-node_modules/",
+			"/Applications/MAMP/htdocs/humhub",
+			"/Applications/MAMP/htdocs/humhub,-node_modules/",
+			"/Applications/MAMP/htdocs/humhub",
+			"/Applications/MAMP/htdocs/humhub/node_modules",
+			"/Applications/MAMP/htdocs/humhub,-node_modules/",
+			"/Applications/MAMP/htdocs/humhub",
+			"/Applications/MAMP/htdocs/humhub,-node_modules/",
+			"/Applications/MAMP/htdocs/humhub",
+			"/Applications/MAMP/htdocs/humhub,-node_modules/",
+			"/Applications/MAMP/htdocs/humhub",
+			"/Applications/MAMP/htdocs/humhub,-node_modules/",
+			"/Applications/MAMP/htdocs/humhub",
+			"/Users/Mac/Downloads/ma_maroko_package_1.0/ma_maroko_template1.0/ma_maroko1_template_1.0",
+			"/Users/Mac/Downloads/minimalism_mag/Theme Files/Theme_v1.3",
+			"/Users/Mac/Downloads/ma_maroko_package_1.0/ma_maroko_template1.0/ma_maroko1_template_1.0",
+			"/Users/Mac/Downloads/app",
+			"/Users/Mac/Downloads/magento",
+			"/Users/Mac/Downloads/themeforest-6587068-minimalism-responsive-magento-theme/Minimalism Theme 1.3",
+			"/Users/Mac/Downloads/themeforest-6587068-minimalism-responsive-magento-theme",
+			"/Users/Mac/Downloads/themeforest-6587068-minimalism-responsive-magento-theme/Minimalism Theme 1.3",
+			"/Users/Mac/Downloads/htaccess",
+			"/Users/Mac/Downloads/htaccess/upsu",
+			"/Users/Mac/Downloads/htaccess/upsu/app",
+			"/Users/Mac/Downloads/magento",
+			"/Applications/MAMP/htdocs/brilens",
+			"/Applications/MAMP/htdocs/upload",
+			"/Applications/MAMP/htdocs/brilens4",
+			"/Applications/MAMP/htdocs/brilens/public/css",
+			"/Applications/MAMP/htdocs/brilens",
+			"/Applications/MAMP/htdocs/brilens/application/views",
+			"/Applications/MAMP/htdocs/brilens/public",
+			"/Applications/MAMP/htdocs/brilens/application/config",
+			"/Applications/MAMP/htdocs/brilens/application/libs",
+			"/Applications/MAMP/htdocs/brilens/application/views",
+			"/Applications/MAMP/htdocs/brilens/application/controllers",
+			"/Applications/MAMP/htdocs/brilens/application/models",
+			"/Applications/MAMP/htdocs/brilens",
+			"/Applications/MAMP/htdocs/pro3"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"smtp",
+			"swiftmailer",
+			"smtp",
+			"ratio",
+			"image-upload-container",
+			"bannerfileupload",
+			"6.3",
+			"aspectRatio:0",
+			"aspectRatio: 0,",
+			"vm1082",
+			"opacity",
+			"132px",
+			"aspectRatio: 0",
+			"aspectr",
+			"aspectratio",
+			"getFixed",
+			"aspectra",
+			"panel-profile-header",
+			"pageTitle",
+			"allowresi",
+			"aspectr",
+			"option",
+			"setselec",
+			"minsize",
+			"aspectr",
+			"aspect",
+			"jcrop-tracker",
+			"getrect",
+			"aspectratio",
+			"getRect",
+			"aspectratio",
+			"boxheight",
+			"origimg",
+			"$origimg.height",
+			"boxheight",
+			"height",
+			"space-layout-container",
+			"topbar",
+			"container",
+			"panel-profile-header",
+			"css-sticky",
+			"panel-profile-header",
+			"module list",
+			"module",
+			"stick",
+			"sticked",
+			"media-heading",
+			"sticky",
+			"sticked",
+			"hwidget",
+			"sticked",
+			"checkbox",
+			"getConfig",
+			"getConfig('showtime')",
+			"date-time",
+			"word1",
+			"date(",
+			"showtime",
+			"C38749",
+			"Topmenu",
+			"category-label",
+			"pre",
+			"c93",
+			"c78f55",
+			"C38749",
+			"abou",
+			"project",
+			"&gt;",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			"&gt;",
+			"&gt",
+			"paralle",
+			"parallax",
+			"para",
+			"googleapi",
+			"parentmenu",
+			"pt_custommenu",
+			"fashion news",
+			"random product",
+			"product",
+			"random",
+			"content_banner",
+			"grid_3",
+			"header.phtml",
+			"width",
+			"small_logo",
+			"posttitle",
+			"quick-access",
+			"2013",
+			"meigee",
+			"premium Magento themes",
+			"id=\"contactform\"",
+			"class=\"scaffold",
+			"scaffold",
+			"index/post",
+			"contacts/index/post",
+			"controller_action_postdispatch",
+			"contacts_index_post",
+			"controller_action_postdispatch_contacts_index_post",
+			"postdispatch",
+			"cms_page_load",
+			"frontend",
+			"<frontend>",
+			"indexcontroller",
+			"config.xml",
+			"postdispatch",
+			"this->redirect(",
+			"this->redirect",
+			"getformactionurl",
+			"getformaction",
+			"contactform",
+			"contacts/index/post",
+			"orders and returns",
+			"catalogsearch",
+			"advanced search",
+			"div",
+			"boxTexture",
+			"uploadModelViewMatrixToShader",
+			"mat4.",
+			"mat4.tr",
+			"init()",
+			"pwgl.x"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sticked",
+			"sticky",
+			"EE2E24",
+			"em",
+			"f9b233",
+			"earth",
+			"8886"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "themes/HumHub/css/theme.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/LAZY.tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/LAZY.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "protected/humhub/modules/admin/messages/en_uk/views_setting_mailing_server.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/LAZY.tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "humhub.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mailer",
+				"protected/vendor/yiisoft/yii2/mail/BaseMailer.php"
+			],
+			[
+				"swiftmail",
+				"protected/vendor/yiisoft/yii2-swiftmailer/Mailer.php"
+			],
+			[
+				"common",
+				"protected/humhub/config/common.php"
+			],
+			[
+				"jcrop",
+				"protected/humhub/modules/user/messages/ja/views_profile_cropBannerImage.php"
+			],
+			[
+				"commo",
+				"protected/config/common.php"
+			],
+			[
+				"resize",
+				"protected/vendor/bower/bootstrap/less/mixins/resize.less"
+			],
+			[
+				"crop",
+				"protected/humhub/modules/user/views/account/cropBannerImage.php"
+			],
+			[
+				"header",
+				"protected/humhub/modules/space/widgets/Header.php"
+			],
+			[
+				"modules.js",
+				"node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/bin-version-check/node_modules/bin-version/node_modules/find-versions/node_modules/meow/node_modules/normalize-package-data/node_modules/is-builtin-module/node_modules/builtin-modules/builtin-modules.json"
+			],
+			[
+				"cache",
+				"protected/vendor/yiisoft/yii2/caching/Cache.php"
+			],
+			[
+				"hwidget",
+				"protected/humhub/components/Widget.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
