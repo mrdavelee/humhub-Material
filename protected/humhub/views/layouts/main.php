@@ -83,7 +83,7 @@ AppAsset::register($this);
     <?php $this->beginBody() ?>
 
     <!-- start: first top navigation bar -->
-    <div id="topbar-first" class="topbar">
+    <div class="navbar">
         <div class="container">
             <div class="topbar-brand hidden-xs">
                 <?php echo \humhub\widgets\SiteLogo::widget(); ?>
@@ -110,7 +110,7 @@ AppAsset::register($this);
 
 
     <!-- start: second top navigation bar -->
-    <div id="topbar-second" class="topbar">
+    <div class="">
         <div class="container">
             <ul class="nav ">
                 <!-- load space chooser widget -->
@@ -152,6 +152,13 @@ AppAsset::register($this);
 
     <?php echo \humhub\models\Setting::GetText('trackingHtmlCode'); ?>
     <?php $this->endBody() ?>
+    <script src="<?php echo $this->theme->getBaseUrl() . '/js/material.min.js'; ?>"></script>
+    <script src="<?php echo $this->theme->getBaseUrl() . '/js/ripples.min.js'; ?>"></script>
+    <script>
+        $(function() {
+            $.material.init()
+        });
+    </script>
     </body>
     </html>
 <?php $this->endPage() ?>

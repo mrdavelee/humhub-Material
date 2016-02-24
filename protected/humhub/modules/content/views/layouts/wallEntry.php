@@ -11,7 +11,7 @@
  */
 ?>
 <?php if ($mode != "activity") : ?>
-    <div class="wall-entry" id="wallEntry_<?php echo $entry->id; ?>">
+    <div class="card" id="wallEntry_<?php echo $entry->id; ?>">
 <?php endif; ?>
 
 <?php echo $content; ?>

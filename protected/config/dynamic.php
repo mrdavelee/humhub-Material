@@ -22,8 +22,8 @@
       array (
         'theme' => 
         array (
-          'name' => 'HumHub',
-          'basePath' => '/Applications/MAMP/htdocs/humhub/themes/HumHub',
+          'name' => 'Material',
+          'basePath' => '/Applications/MAMP/htdocs/humhub/themes/Material',
         ),
       ),
     ),
@@ -31,8 +31,8 @@
     array (
       'theme' => 
       array (
-        'name' => 'HumHub',
-        'basePath' => '/Applications/MAMP/htdocs/humhub/themes/HumHub',
+        'name' => 'Material',
+        'basePath' => '/Applications/MAMP/htdocs/humhub/themes/Material',
       ),
     ),
     'formatter' => 
@@ -60,8 +60,8 @@
       'core' => 
       array (
         'colorDefault' => '#ededed',
-        'colorPrimary' => '#708fa0',
-        'colorInfo' => '#6fdbe8',
+        'colorPrimary' => '#00868B',
+        'colorInfo' => '#308014',
         'colorSuccess' => '#97d271',
         'colorWarning' => '#fdd198',
         'colorDanger' => '#ff8989',
@@ -70,7 +70,7 @@
         'baseUrl' => 'http://localhost:8888/humhub',
         'paginationSize' => '10',
         'displayNameFormat' => '{profile.firstname} {profile.lastname}',
-        'theme' => 'HumHub',
+        'theme' => 'Material',
         'defaultLanguage' => 'en_gb',
         'useCase' => 'community',
         'secret' => 'ab970963-82d1-4a1e-bea8-b0815c43c325',
@@ -153,7 +153,7 @@
         'sampleData' => '1',
       ),
     ),
-    'config_created_at' => 1454798617,
+    'config_created_at' => 1456339164,
     'databaseInstalled' => true,
     'installed' => true,
   ),
