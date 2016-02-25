@@ -115,7 +115,7 @@ class Events extends \yii\base\Object
     {
         $event->sender->addWidget(widgets\WallEntryLinks::className(), array(
             'object' => $event->sender->object,
-            'seperator' => "&nbsp;&middot;&nbsp;",
+            'seperator' => "&nbsp;&nbsp;&nbsp;",
             'template' => '<div class="wall-entry-controls">{content}</div>',
                 ), array('sortOrder' => 10)
         );

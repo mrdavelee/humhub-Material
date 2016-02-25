@@ -9,10 +9,10 @@ var less = require('gulp-less');
 //var sys = require('sys');
 
 // Where do you store your Sass files?
-var lessDir = 'themes/HumHub/css';
+var lessDir = 'themes/Material/css';
 
 // Which directory should LESS compile to?
-var targetCSSDir = 'themes/HumHub/css';
+var targetCSSDir = 'themes/Material/css';
 
 
 // Which directory should CoffeeScript compile to?

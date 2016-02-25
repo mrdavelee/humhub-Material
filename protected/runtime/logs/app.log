@@ -862,3 +862,133 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2016-02-24 23:06:32 [::1][1][67c62cfd7b3a93572da16651a7ad60ad][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=>' (T_DOUBLE_ARROW)' in /Applications/MAMP/htdocs/humhub/protected/humhub/modules/comment/widgets/views/link.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-24 23:06:32 [::1][1][67c62cfd7b3a93572da16651a7ad60ad][info][application] $_GET = [
+    'r' => 'dashboard/dashboard/stream'
+    'limit' => '4'
+    'filters' => ''
+    'sort' => 'c'
+    'from' => ''
+    'mode' => 'normal'
+]
+
+$_COOKIE = [
+    'pm_getting-started-panel' => 'expanded'
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    '_identity' => '97532237ca0354241d48ea228c0df8d558803bc00fed05e700e5c5e5f98e842ca:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"ff21f531-aee3-4ba3-8431-a6b406324211\",2592000]\";}'
+    'PHPSESSID' => '67c62cfd7b3a93572da16651a7ad60ad'
+    '_csrf' => '6f96be71c3f6b04fe251b921abfd3b365a399942b2ae3ed26328341451a8f074a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ssGOsB7k06Do1cacsoOaqckQujAPNXYB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8888/humhub/index.php'
+    'HTTP_X_CSRF_TOKEN' => 'NW5mYzVLOS5GHSEsRgkORQVYIgwEKFhNRgEpAkQoUn9ABCczexNgbA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_COOKIE' => 'pm_getting-started-panel=expanded; pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; _identity=97532237ca0354241d48ea228c0df8d558803bc00fed05e700e5c5e5f98e842ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ff21f531-aee3-4ba3-8431-a6b406324211%22%2C2592000%5D%22%3B%7D; PHPSESSID=67c62cfd7b3a93572da16651a7ad60ad; _csrf=6f96be71c3f6b04fe251b921abfd3b365a399942b2ae3ed26328341451a8f074a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ssGOsB7k06Do1cacsoOaqckQujAPNXYB%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '65434'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=dashboard%2Fdashboard%2Fstream&limit=4&filters=&sort=c&from=&mode=normal'
+    'REQUEST_URI' => '/humhub/index.php?r=dashboard%2Fdashboard%2Fstream&limit=4&filters=&sort=c&from=&mode=normal'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1456351592.08
+    'REQUEST_TIME' => 1456351592
+    'argv' => [
+        0 => 'r=dashboard%2Fdashboard%2Fstream&limit=4&filters=&sort=c&from=&mode=normal'
+    ]
+    'argc' => 1
+]
+2016-02-24 23:06:41 [::1][1][67c62cfd7b3a93572da16651a7ad60ad][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=>' (T_DOUBLE_ARROW)' in /Applications/MAMP/htdocs/humhub/protected/humhub/modules/comment/widgets/views/link.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-24 23:06:41 [::1][1][67c62cfd7b3a93572da16651a7ad60ad][info][application] $_GET = [
+    'r' => 'dashboard/dashboard/stream'
+    'limit' => '4'
+    'filters' => ''
+    'sort' => 'c'
+    'from' => ''
+    'mode' => 'normal'
+]
+
+$_COOKIE = [
+    'pm_getting-started-panel' => 'expanded'
+    'pm_share-panel' => 'expanded'
+    'pm_new-people-panel' => 'expanded'
+    'pm_new-spaces-panel' => 'expanded'
+    '_identity' => '97532237ca0354241d48ea228c0df8d558803bc00fed05e700e5c5e5f98e842ca:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[1,\"ff21f531-aee3-4ba3-8431-a6b406324211\",2592000]\";}'
+    'PHPSESSID' => '67c62cfd7b3a93572da16651a7ad60ad'
+    '_csrf' => '6f96be71c3f6b04fe251b921abfd3b365a399942b2ae3ed26328341451a8f074a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ssGOsB7k06Do1cacsoOaqckQujAPNXYB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8888/humhub/index.php'
+    'HTTP_X_CSRF_TOKEN' => 'aGwybU1EM3QbH3UiPgYEH1hadgJ8J1IXGwN9DDwnWCUdBnM9AxxqNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_COOKIE' => 'pm_getting-started-panel=expanded; pm_share-panel=expanded; pm_new-people-panel=expanded; pm_new-spaces-panel=expanded; _identity=97532237ca0354241d48ea228c0df8d558803bc00fed05e700e5c5e5f98e842ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ff21f531-aee3-4ba3-8431-a6b406324211%22%2C2592000%5D%22%3B%7D; PHPSESSID=67c62cfd7b3a93572da16651a7ad60ad; _csrf=6f96be71c3f6b04fe251b921abfd3b365a399942b2ae3ed26328341451a8f074a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ssGOsB7k06Do1cacsoOaqckQujAPNXYB%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/humhub/index.php'
+    'REMOTE_PORT' => '49172'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=dashboard%2Fdashboard%2Fstream&limit=4&filters=&sort=c&from=&mode=normal'
+    'REQUEST_URI' => '/humhub/index.php?r=dashboard%2Fdashboard%2Fstream&limit=4&filters=&sort=c&from=&mode=normal'
+    'SCRIPT_NAME' => '/humhub/index.php'
+    'PHP_SELF' => '/humhub/index.php'
+    'REQUEST_TIME_FLOAT' => 1456351601.52
+    'REQUEST_TIME' => 1456351601
+    'argv' => [
+        0 => 'r=dashboard%2Fdashboard%2Fstream&limit=4&filters=&sort=c&from=&mode=normal'
+    ]
+    'argc' => 1
+]
