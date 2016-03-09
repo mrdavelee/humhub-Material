@@ -3,6 +3,9 @@
   border-radius: 50%;
   margin-right: 10px;
 }
+.dropdown {
+  float: right;
+}
 .topLevel {
   position: relative;
 }
@@ -19,6 +22,10 @@
 }
 .card .panel {
   margin-bottom: 0;
+}
+.card .comment {
+  background-color: #f7f7f7;
+  padding-top: 20px;
 }
 .media .content {
   font-weight: normal;

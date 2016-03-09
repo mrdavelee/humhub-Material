@@ -15,7 +15,7 @@ $canDelete = $comment->canDelete();
     <?php if ($canWrite || $canDelete) : ?>
 
         <ul class="nav nav-pills preferences">
-            <li class="dropdown ">
+            <li class="dropdown pull_right">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-angle-down"></i></a>
 
                 <ul class="dropdown-menu pull-right">
